@@ -1,0 +1,19 @@
+{
+    "name": "Osanna",
+    "nameVisibility": true,
+    "dialogue": "osanna",
+    "texture": "http://textures.minecraft.net/texture/6f0f7071d9607fe01a12442174ba23165419d4c2c67d7c304bd0541f00eefe55",
+    "textColor": 12961024,
+    "slim": false,
+    "pose": "standing",
+    "trades": "{Recipes:[{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}},{buyA:{Count:1b,id:\"minecraft:air\"},buyB:{Count:1b,id:\"minecraft:air\"},buyC:{Count:1b,id:\"minecraft:air\"},sellA:{Count:1b,id:\"minecraft:air\"},sellB:{Count:1b,id:\"minecraft:air\"},sellC:{Count:1b,id:\"minecraft:air\"}}]}",
+    "inventory": {
+        "mainHand": "minecraft:empty",
+        "offHand": "minecraft:empty",
+        "head": "minecraft:empty",
+        "chest": "minecraft:empty",
+        "legs": "minecraft:empty",
+        "feet": "minecraft:empty"
+    },
+    "internalName": "Osanna"
+}
