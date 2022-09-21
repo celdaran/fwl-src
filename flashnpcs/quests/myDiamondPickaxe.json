@@ -1,0 +1,1 @@
+{"name":"myDiamondPickaxe","displayName":"Mike's Diamond Pickaxe","objectives":[{"index":0,"name":"Pickaxe","type":0,"amount":1,"primaryObjective":"minecraft:diamond_pickaxe{Damage:0,display:{Name:'{\"text\":\"Mike\\'s Diamond Pickaxe\",\"italic\":\"true\"}'}}"}],"xpReward":1,"itemRewards":[{"stack":"minecraft:apple","count":1}],"repeatable":false}

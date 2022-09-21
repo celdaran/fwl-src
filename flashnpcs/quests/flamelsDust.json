@@ -1,0 +1,1 @@
+{"name":"flamelsDust","displayName":"Flamel's Dust","objectives":[{"index":0,"name":"Dust","type":0,"amount":1,"primaryObjective":"minecraft:red_dye{display:{Name:'{\"text\":\"Philosopher\\'s Stone Dust\"}'}}"}],"xpReward":2,"repeatable":false}

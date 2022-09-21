@@ -1,0 +1,1 @@
+{"name":"prizeMelonSeeds","displayName":"Prize Melon","objectives":[{"index":0,"name":"Melon","type":0,"amount":1,"primaryObjective":"minecraft:melon_seeds{display:{Name:'{\"text\":\"Prize-Winning Melon Seeds\",\"italic\":\"true\"}'}}"}],"xpReward":1,"itemRewards":[{"stack":"minecraft:pumpkin_pie","count":1}]}

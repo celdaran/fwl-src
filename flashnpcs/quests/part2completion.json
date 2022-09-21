@@ -1,0 +1,14 @@
+{
+    "name": "part2completion",
+    "displayName": "Part Two Completion",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Certificate",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:gray_carpet{display:{Name:'{\"text\":\"Certificate of Completion: Part Two\",\"italic\":\"true\"}' }}"
+        }
+    ],
+    "xpReward": 0
+}

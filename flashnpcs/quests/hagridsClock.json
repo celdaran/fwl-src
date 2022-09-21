@@ -1,0 +1,1 @@
+{"name":"hagridsClock","displayName":"Hagrid's Clock","objectives":[{"index":0,"name":"Hagrid's Clock","type":0,"amount":1,"primaryObjective":"minecraft:clock{display:{Name:'{\"text\":\"Hagrid\\'s Clock\",\"italic\":\"true\"}'}}"}],"xpReward":2,"itemRewards":[{"stack":"minecraft:cookie","count":1}],"repeatable":false}

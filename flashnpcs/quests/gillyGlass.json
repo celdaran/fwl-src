@@ -1,0 +1,1 @@
+{"name":"gillyGlass","displayName":"Boss Gilly's Spyglass","objectives":[{"index":0,"name":"Spyglass","type":0,"amount":1,"primaryObjective":"minecraft:spyglass{RepairCost:0,display:{Name:'{\"text\":\"Boss Gilly\"}'}}"}],"xpReward":3,"repeatable":false}

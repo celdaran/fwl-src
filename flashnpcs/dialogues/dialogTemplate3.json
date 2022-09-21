@@ -1,0 +1,90 @@
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::alphaQuest,alphaQuestCompleted,alphaQuestCheckAccepted",
+            "children": []
+        },
+        {
+            "name": "alphaQuestCompleted",
+            "text": "NPC says \"You've completed alphaQuest and you're all done.\"",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "alphaQuestCompletedOption1",
+                    "text": "Option One",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                }, {
+                    "name": "alphaQuestCompletedOption2",
+                    "text": "Option Two",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "alphaQuestCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::alphaQuest,betaQuestCheckCompleted,alphaQuestNotAccepted",
+            "children": []
+        },
+        {
+            "name": "betaQuestCheckCompleted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::betaQuest,betaQuestCompleted,betaQuestCheckAccepted",
+            "children": []
+        }, {
+            "name": "alphaQuestNotAccepted",
+            "text": "NPC says \"You've not accepted alphaQuest\"",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "alphaQuestAccept",
+                    "text": "I accept alphaQuest",
+                    "response": "",
+                    "function": "acceptQuest::alphaQuest",
+                    "children": []
+                }, {
+                    "name": "alphaQuestReject",
+                    "text": "I reject alphaQuest",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }, {
+            "name": "betaQuestCompleted",
+            "text": "NPC says \"You've completed betaQuest but not alphaQuest\"",
+            "response": "",
+            "function": "",
+            "children": []
+        }, {
+            "name": "betaQuestCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::betaQuest,betaQuestAccepted,betaQuestNotAccepted",
+            "children": []
+        }, {
+            "name": "betaQuestAccepted",
+            "text": "NPC says \"You've accepted Beta Quest\"",
+            "response": "",
+            "function": "",
+            "children": []
+        }, {
+            "name": "betaQuestNotAccepted",
+            "text": "alphaQuest Accepted, alphaQuest Not Completed, betaQuest Not Accepted",
+            "response": "",
+            "function": "",
+            "children": []
+        }
+    ]
+}

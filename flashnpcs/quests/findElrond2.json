@@ -1,0 +1,1 @@
+{"name":"findElrond2","displayName":"Find Arwen's Father","objectives":[{"index":0,"name":"Dad","type":5,"amount":1,"primaryObjective":"Elrond","secondaryObjective":"thankYou","displayProgress":false}],"xpReward":1,"itemRewards":[{"stack":"minecraft:torch","count":5}],"repeatable":false}

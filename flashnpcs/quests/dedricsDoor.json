@@ -1,0 +1,1 @@
+{"name":"dedricsDoor","displayName":"Dedric's Door","objectives":[{"index":0,"name":"Certificate","type":0,"amount":1,"primaryObjective":"minecraft:paper{display:{Name:'{\"text\":\"Dedric\\'s Door Removed\",\"italic\":\"true\"}'}}","objectiveRunOnComplete":["/setblock -2689 83 2749 minecraft:air"]}],"xpReward":1}

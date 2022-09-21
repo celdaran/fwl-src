@@ -1,0 +1,1 @@
+{"name":"spiderQuest1","displayName":"Spider Quest","objectives":[{"index":0,"name":"Spiders","type":1,"amount":3,"primaryObjective":"minecraft:spider"}],"xpReward":2,"itemRewards":[{"stack":"minecraft:paper{display:{Name:'{\"text\":\"Spider Quest Chest Key\",\"italic\":\"true\"}'}}","count":1}]}

@@ -1,0 +1,1 @@
+{"name":"myNetheriteShovel","displayName":"Ike's Netherite Shovel","objectives":[{"index":0,"name":"Shovel","type":0,"amount":1,"primaryObjective":"minecraft:netherite_shovel{Damage:0,display:{Name:'{\"text\":\"Ike\\'s Netherite Shovel\",\"italic\":\"true\"}'}}"}],"xpReward":1,"itemRewards":[{"stack":"minecraft:apple","count":1}],"repeatable":false}

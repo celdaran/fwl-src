@@ -1,0 +1,222 @@
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::villageClock,checkCompletedPartTwo,checkAccept",
+            "children": []
+        },
+        {
+            "name": "start",
+            "text": "Hello, traveller! My name is @npc. Can I help you?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Hey @npc. I'm looking for some adventure. Got anything?",
+                    "response": "Well, I have a quest. Interested?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "yes",
+                            "text": "It's what I do!",
+                            "response": "Great! Our little village here, we lost our clock. We used to keep it over there, in the village center. Someone stole it on Saturday and we would really like it back.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "accept",
+                                    "text": "On it!",
+                                    "response": "Thank you and may the force be with you!",
+                                    "function": "acceptQuest::villageClock",
+                                    "children": []
+                                }, {
+                                    "name": "reject",
+                                    "text": "Actually, speaking of clocks, look at the time! I'd best be on my way!",
+                                    "response": "So long!",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }, {
+                            "name": "sorry",
+                            "text": "Actually, I'm kind of busy right now, but thank you!",
+                            "response": "Your loss!",
+                            "function": "",
+                            "children": []
+                        }, {
+                            "name": "disbelief",
+                            "text": "A quest? Really? For poor lil ol' me?",
+                            "response": "Of course! Have some confidence in yourself.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "okay",
+                                    "text": "Okay, I'll do it!",
+                                    "response": "Great! So here's the thing. Our town clock was stolen. You need to find it and bring it back.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "accept2",
+                                            "text": "You can count on me!",
+                                            "response": "Great! The quest is given.",
+                                            "function": "acceptQuest::villageClock",
+                                            "children": []
+                                        }, {
+                                            "name": "reject2",
+                                            "text": "I literally JUST did a clock quest. But thanks.",
+                                            "response": "",
+                                            "function": "",
+                                            "children": []
+                                        }
+                                    ]
+                                }, {
+                                    "name": "noconfidence",
+                                    "text": "Well, the council took a vote of no confidence in me and kicked me out. I'll just be on my way.",
+                                    "response": "You would've gotten my vote, traveller!",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }, {
+                    "name": "no",
+                    "text": "Nope. I'm good.",
+                    "response": "Okay",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "completedClock",
+            "text": "Thank you again for your help. Our village is forever grateful.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "clockBack",
+                    "text": "So are you gonna . . . you know . . . put the clock back in its place?",
+                    "response": "It's on my todo list.",
+                    "function": "",
+                    "children": []
+                }, {
+                    "name": "aboutJani",
+                    "text": "Did you know it was Jani the whole time?",
+                    "response": "The whole time? The WHOLE time? THE WHOLE TIME?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "aboutJani2",
+                            "text": "Yeah, she fessed up. She gave the clock to an innocent nerd in a costume.",
+                            "response": "Hahaha.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "whyFunny",
+                                    "text": "How is that funny?",
+                                    "response": "Oh. I did the exact same thing when I was her age.",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }, {
+                    "name": "nextSteps",
+                    "text": "Any ideas what my next steps should be?",
+                    "response": "Just between you and me, I think you're ready to move on.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "moveOn",
+                            "text": "Move on?",
+                            "response": "Yes, to bigger and more important things.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "likeWhat",
+                                    "text": "Like what?",
+                                    "response": "I can say no more. Only this. Go back toward the Mountain Villa. Cross East Bridge and take the East Shore Road north. You'll eventually find a cave. Enter and take care.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "iWill",
+                                            "text": "I will!",
+                                            "response": "Fare thee well, traveller.",
+                                            "function": "acceptQuest::part2completion",
+                                            "children": [
+                                                {
+                                                    "name": "megan",
+                                                    "text": "And megan thee stallion right back atcha.",
+                                                    "response": "",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "checkAccept",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::villageClock,inProgress,start",
+            "children": []
+        }, {
+            "name": "inProgress",
+            "text": "So glad you're on the case. Check back with me if, and when, you find the clock.",
+            "response": "",
+            "function": "",
+            "children": []
+        }, {
+            "name": "checkCompletedPartTwo",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::part2completion,partTwoCompleted,checkAcceptedPartTwo",
+            "children": []
+        }, {
+            "name": "checkAcceptedPartTwo",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::part2completion,partTwoAccepted,completedClock",
+            "children": []
+        }, {
+            "name": "partTwoAccepted",
+            "text": "Oh hello. Did you need something else?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "somethingElse",
+                    "text": "Where am I going?",
+                    "response": "Head east. Cross the East Bridge. Then take the East Shore Road north until you hit the cave. You can take it from there. ",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }, {
+            "name": "partTwoCompleted",
+            "text": "You found the Second Scary Skull! At this point, you should have the skull, the banner, and...",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "andWhat",
+                    "text": "And what?",
+                    "response": "A new house! Head west along the path, back to the real estate agent. Remember her?",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::sample,a,b","children":[]},{"name":"a","text":"moveOnCompleteQuest=true","response":"","function":"","children":[]},{"name":"b","text":"moveOnCompleteQuest=false","response":"","function":"","children":[]}]}

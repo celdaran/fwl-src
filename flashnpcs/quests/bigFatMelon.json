@@ -1,0 +1,1 @@
+{"name":"bigFatMelon","displayName":"Big Fat Melon","objectives":[{"index":0,"name":"Melon","type":0,"amount":1,"primaryObjective":"minecraft:melon{display:{Name:'{\"text\":\"A Big Fat Melon\",\"italic\":\"true\"}'}}"}],"xpReward":1,"itemRewards":[{"stack":"minecraft:melon_seeds","count":1}],"repeatable":false}

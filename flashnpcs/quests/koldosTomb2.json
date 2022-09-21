@@ -1,0 +1,21 @@
+{
+    "name": "koldosTomb2",
+    "displayName": "Koldo's Tomb",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Blade",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:golden_sword{Damage:0,display:{Name:'{\"text\":\"Golden Blade of Whatever\",\"italic\":\"true\"}'}}"
+        }
+    ],
+    "xpReward": 2,
+    "itemRewards": [
+        {
+            "stack": "minecraft:gold_ingot",
+            "count": 1
+        }
+    ],
+    "repeatable": false
+}
