@@ -1,1 +1,20 @@
-{"name":"frickinBats","displayName":"Frickin Bats","objectives":[{"index":0,"name":"Bats","type":1,"amount":5,"primaryObjective":"minecraft:bat"}],"xpReward":3,"itemRewards":[{"stack":"minecraft:cooked_chicken","count":1}]}
+{
+    "name": "frickinBats",
+    "displayName": "Frickin Bats",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Bats",
+            "type": 1,
+            "amount": 5,
+            "primaryObjective": "minecraft:bat"
+        }
+    ],
+    "xpReward": 3,
+    "itemRewards": [
+        {
+            "stack": "minecraft:cooked_chicken",
+            "count": 1
+        }
+    ]
+}

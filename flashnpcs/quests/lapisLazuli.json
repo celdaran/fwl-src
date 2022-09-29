@@ -1,1 +1,20 @@
-{"name":"lapisLazuli","displayName":"Lapis Lazuli","objectives":[{"index":0,"name":"Lapis","type":0,"amount":1,"primaryObjective":"minecraft:lapis_lazuli{display:{Name:'{\"text\":\"Lapis Lazuli of Light\",\"italic\":\"true\"}'}}"}],"xpReward":1,"itemRewards":[{"stack":"minecraft:gold_ingot{display:{Name:'{\"text\":\"A Very Special Gold Ingot\",\"italic\":\"true\"}'}}","count":1}]}
+{
+    "name": "lapisLazuli",
+    "displayName": "Lapis Lazuli",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Lapis",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:lapis_lazuli{display:{Name:'{\"text\":\"Lapis Lazuli of Light\",\"italic\":\"true\"}'}}"
+        }
+    ],
+    "xpReward": 1,
+    "itemRewards": [
+        {
+            "stack": "minecraft:gold_ingot{display:{Name:'{\"text\":\"A Very Special Gold Ingot\",\"italic\":\"true\"}'}}",
+            "count": 1
+        }
+    ]
+}

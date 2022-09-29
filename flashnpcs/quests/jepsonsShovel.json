@@ -1,1 +1,25 @@
-{"name":"jepsonsShovel","displayName":"Jepson's Shovel","objectives":[{"index":0,"name":"Shovel","type":0,"amount":1,"primaryObjective":"minecraft:iron_shovel{Damage:0,display:{Name:'{\"text\":\"Jepson\\'s Shovel\",\"italic\":\"true\"}'}}"}],"xpReward":1,"itemRewards":[{"stack":"minecraft:filled_map{display:{Name:'{\"text\":\"Map of Southport\"}'},map:74}","count":1},{"stack":"minecraft:paper{display:{Name:'{\"text\":\"Lapis Lazuli Chest Key\",\"italic\":\"true\"}'}}","count":1}],"repeatable":false}
+{
+    "name": "jepsonsShovel",
+    "displayName": "Jepson's Shovel",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Shovel",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:iron_shovel{Damage:0,display:{Name:'{\"text\":\"Jepson\\'s Shovel\",\"italic\":\"true\"}'}}"
+        }
+    ],
+    "xpReward": 1,
+    "itemRewards": [
+        {
+            "stack": "minecraft:filled_map{display:{Name:'{\"text\":\"Map of Southport\"}'},map:74}",
+            "count": 1
+        },
+        {
+            "stack": "minecraft:paper{display:{Name:'{\"text\":\"Lapis Lazuli Chest Key\",\"italic\":\"true\"}'}}",
+            "count": 1
+        }
+    ],
+    "repeatable": false
+}

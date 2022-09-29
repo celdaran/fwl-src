@@ -1,1 +1,21 @@
-{"name":"prizeWinningPumpkin","displayName":"Prize-Winning Pumpkin","objectives":[{"index":0,"name":"Pumpkin","type":0,"amount":1,"primaryObjective":"minecraft:pumpkin{display:{Name:'{\"text\":\"A Prize-Winning Pumpkin\",\"italic\":\"true\"}'}}"}],"xpReward":1,"itemRewards":[{"stack":"minecraft:pumpkin_seeds","count":1}],"repeatable":false}
+{
+    "name": "prizeWinningPumpkin",
+    "displayName": "Prize-Winning Pumpkin",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Pumpkin",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:pumpkin{display:{Name:'{\"text\":\"A Prize-Winning Pumpkin\",\"italic\":\"true\"}'}}"
+        }
+    ],
+    "xpReward": 1,
+    "itemRewards": [
+        {
+            "stack": "minecraft:pumpkin_seeds",
+            "count": 1
+        }
+    ],
+    "repeatable": false
+}

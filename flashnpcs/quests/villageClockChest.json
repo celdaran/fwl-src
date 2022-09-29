@@ -1,1 +1,14 @@
-{"name":"villageClockChest","displayName":"Village Clock Chest","objectives":[{"index":0,"name":"Key","type":0,"amount":1,"primaryObjective":"minecraft:paper{display:{Name:'{\"text\":\"Village Clock Chest Key\",\"italic\":\"true\"}'}}"}],"xpReward":3}
+{
+    "name": "villageClockChest",
+    "displayName": "Village Clock Chest",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Key",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:paper{display:{Name:'{\"text\":\"Village Clock Chest Key\",\"italic\":\"true\"}'}}"
+        }
+    ],
+    "xpReward": 3
+}

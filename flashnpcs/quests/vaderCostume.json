@@ -1,1 +1,16 @@
-{"name":"vaderCostume","displayName":"Vader Costume","objectives":[{"index":0,"name":"Talk","type":5,"amount":1,"primaryObjective":"Igor","secondaryObjective":"targetNode"}],"xpReward":1,"repeatable":false}
+{
+    "name": "vaderCostume",
+    "displayName": "Vader Costume",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Talk",
+            "type": 5,
+            "amount": 1,
+            "primaryObjective": "Igor",
+            "secondaryObjective": "targetNode"
+        }
+    ],
+    "xpReward": 1,
+    "repeatable": false
+}

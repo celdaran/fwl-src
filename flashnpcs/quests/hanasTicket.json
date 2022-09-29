@@ -1,1 +1,21 @@
-{"name":"hanasTicket","displayName":"Hana's Ticket","objectives":[{"index":0,"name":"Ticket","type":0,"amount":1,"primaryObjective":"minecraft:paper{display:{Name:'{\"text\":\"Hana\\'s ComicCon Ticket\",\"italic\":\"true\"}'}}"}],"xpReward":2,"itemRewards":[{"stack":"minecraft:cookie","count":1}],"repeatable":false}
+{
+    "name": "hanasTicket",
+    "displayName": "Hana's Ticket",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Ticket",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:paper{display:{Name:'{\"text\":\"Hana\\'s ComicCon Ticket\",\"italic\":\"true\"}'}}"
+        }
+    ],
+    "xpReward": 2,
+    "itemRewards": [
+        {
+            "stack": "minecraft:cookie",
+            "count": 1
+        }
+    ],
+    "repeatable": false
+}
