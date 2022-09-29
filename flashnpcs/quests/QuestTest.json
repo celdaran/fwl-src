@@ -1,1 +1,20 @@
-{"name":"QuestTest","displayName":"Quest Test","objectives":[{"index":0,"name":"Torhcy","type":0,"amount":1,"primaryObjective":"minecraft:torch"}],"xpReward":1,"itemRewards":[{"stack":"minecraft:sponge","count":1}]}
+{
+    "name": "QuestTest",
+    "displayName": "Quest Test",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Torhcy",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:torch"
+        }
+    ],
+    "xpReward": 1,
+    "itemRewards": [
+        {
+            "stack": "minecraft:sponge",
+            "count": 1
+        }
+    ]
+}
