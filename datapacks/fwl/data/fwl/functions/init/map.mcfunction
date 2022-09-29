@@ -197,3 +197,6 @@ setblock -2595 -40 2812 minecraft:barrel[facing=east]{CustomName:'"Barrel"',Item
 # Druvine Storage Level Two
 setblock -2600 -33 2840 minecraft:air
 setblock -2600 -33 2840 minecraft:chest[facing=south]{CustomName:'"Public Supplies"',Items:[{Slot:0,id:"minecraft:coal",Count:64},{Slot:1,id:"minecraft:coal",Count:64},{Slot:2,id:"minecraft:coal",Count:64},{Slot:3,id:"minecraft:coal",Count:64},{Slot:4,id:"minecraft:charcoal",Count:32},{Slot:9,id:"minecraft:flint_and_steel",Count:1}]} replace
+
+# Summon NPC
+summon flashnpcs:npc -2594 -49 2801 {dialogue: "sadie", texture: "http://textures.minecraft.net/texture/754776cea16cf74d97cd06b552d56c91035243ee5a86d7a91517f81163188c6c", Rotation: [-29.467468f, 0.0f], textColor: 12566272, CustomName: '{"text":"Sadie"}'}
