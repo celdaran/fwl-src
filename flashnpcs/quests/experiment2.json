@@ -1,0 +1,18 @@
+{
+    "name": "experiment2",
+    "displayName": "Exp Two",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Skull",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:skeleton_skull"
+        }
+    ],
+    "xpReward": 0,
+    "repeatable": false,
+    "runOnComplete": [
+        "/function fwl:dedricsDoor"
+    ]
+}

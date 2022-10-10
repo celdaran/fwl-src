@@ -1,0 +1,27 @@
+{
+    "name": "questTest2",
+    "displayName": "Quest Test 2",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "A scary skull",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:player_head{display:{Name:'{\"text\":\"The First Scary Skull\"}'},SkullOwner:\"Titan\"}"
+        },
+        {
+            "index": 0,
+            "name": "Torch",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:torch"
+        }
+    ],
+    "xpReward": 1,
+    "itemRewards": [
+        {
+            "stack": "minecraft:paper{display:{Name:'{\"text\":\"Generated in VSCode\",\"italic\":\"true\"}'}}",
+            "count": 1
+        }
+    ]
+}

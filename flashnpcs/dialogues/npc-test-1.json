@@ -1,0 +1,1 @@
+{"entries":[{"name":"init","text":"Hi @p!","response":"","function":"","children":[{"name":"hello","text":"Hey @npc.","response":"Here's a quest!","function":"acceptQuest::testQuest3","children":[]}]}]}

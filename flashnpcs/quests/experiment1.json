@@ -1,0 +1,15 @@
+{
+    "name": "experiment1",
+    "displayName": "experiment1",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "thunder",
+            "type": 5,
+            "amount": 1,
+            "primaryObjective": "experiment1",
+            "secondaryObjective": "reset"
+        }
+    ],
+    "xpReward": 0
+}

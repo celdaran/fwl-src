@@ -1,0 +1,1 @@
+summon flashnpcs:npc -2594 -49 2801 {dialogue: "sadie", texture: "http://textures.minecraft.net/texture/754776cea16cf74d97cd06b552d56c91035243ee5a86d7a91517f81163188c6c", Rotation: [-29.467468f, 0.0f], textColor: 12566272, CustomName: '{"text":"Sadie"}'}

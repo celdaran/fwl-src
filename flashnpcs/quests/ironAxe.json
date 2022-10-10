@@ -1,0 +1,21 @@
+{
+    "name": "ironAxe",
+    "displayName": "Upton's Axe",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Axe",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:iron_axe{Damage:0,display:{Name:'{\"text\":\"Upton\\'s Grandfather\\'s Iron Axe\",\"italic\":\"true\"}'}}"
+        }
+    ],
+    "xpReward": 1,
+    "itemRewards": [
+        {
+            "stack": "minecraft:shield{Damage:0}",
+            "count": 1
+        }
+    ],
+    "repeatable": false
+}

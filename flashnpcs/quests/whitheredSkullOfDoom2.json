@@ -1,0 +1,20 @@
+{
+    "name": "whitheredSkullOfDoom2",
+    "displayName": "Gwenor's Quest",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Skull",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:wither_skeleton_skull{display:{Name:'{\"text\":\"Withered Skull of Doom\",\"italic\":\"true\"}' }}"
+        }
+    ],
+    "xpReward": 2,
+    "itemRewards": [
+        {
+            "stack": "minecraft:paper{display:{Name:'{\"text\":\"Dedric\\'s Door Removed\",\"italic\":\"true\"}' }}",
+            "count": 1
+        }
+    ]
+}

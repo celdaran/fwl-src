@@ -1,0 +1,136 @@
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::koldosTomb2,koldosTombCompleted,dedricsDoorCheckCompleted",
+            "children": []
+        },
+        {
+            "name": "koldosTombCompleted",
+            "text": "NPC says \"You've completed koldosTomb2 and you're all done. Now go away.\"",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "dedricsDoorCheckCompleted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::dedricsDoor,dedricsDoorCompleted,skullCheckCompleted",
+            "children": []
+        },
+        {
+            "name": "dedricsDoorCompleted",
+            "text": "NPC says \"You've completed dedricsDoor but not koldosTomb2\"",
+            "response": "",
+            "function": "",
+            "children": []
+        }, {
+            "name": "dedricsDoorCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::dedricsDoor,dedricsDoorAccepted,dedricsDoorNotAccepted",
+            "children": []
+        }, {
+            "name": "dedricsDoorAccepted",
+            "text": "Hail, explorer!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Hello there. I was told you might help me.",
+                    "response": "Help you do what?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "freeDedric",
+                            "text": "I'm trying to free Dedric. A magic door has him trapped. I talked to Osanna who said you could help. But I couldn't reach you so Renfield built this magical bridge so I could reach you. Can you help?",
+                            "response": "I can, but I need something in return.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "nowWhat",
+                                    "text": "Oh now what!",
+                                    "response": "Excuse me?",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "sorryMaam",
+                                            "text": "Sorry ma'am. I meant, I would be happy to help.",
+                                            "response": "I will free you if you bring me the Withered Skull of Doom",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "accept",
+                                                    "text": "I accept",
+                                                    "response": "And I can count on you?",
+                                                    "function": "acceptQuest::whitheredSkullOfDoom2",
+                                                    "children": [
+                                                        {
+                                                            "name": "ofCourse",
+                                                            "text": "Of course!",
+                                                            "response": "May the Great Ones guide you.",
+                                                            "function": "unlockChestTest",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }, {
+                                                    "name": "reject",
+                                                    "text": "Maybe later.",
+                                                    "response": "",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "dedricsDoorNotAccepted",
+            "text": "[tbd]",
+            "response": "",
+            "function": "",
+            "children": []
+        }, {
+            "name": "skullCheckCompleted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::whitheredSkullOfDoom2,skullCompleted,checkSkullAccepted",
+            "children": []
+        }, {
+            "name": "skullCompleted",
+            "text": "Thank you for the skull of doom. I shall put it to good use.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "reward",
+                    "text": "And my reward?",
+                    "response": "It is already done. Go find your friend.",
+                    "function": "removeWarpedDoor",
+                    "children": []
+                }
+            ]
+        }, {
+            "name": "checkSkullAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::witheredSkullOfDoom,skullAccepted,dedricsDoorCheckAccepted",
+            "children": []
+        }, {
+            "name": "skullAccepted",
+            "text": "Have you found me wee skull yet?",
+            "response": "",
+            "function": "",
+            "children": []
+        }
+    ]
+}
