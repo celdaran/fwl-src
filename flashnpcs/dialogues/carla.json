@@ -1,0 +1,11 @@
+{
+    "name": "init",
+    "text": "Hi @p!",
+    "function": "",
+    "children": [
+        {
+            "name": "hello",
+            "text": "Hey @npc."
+        }
+    ]
+}
