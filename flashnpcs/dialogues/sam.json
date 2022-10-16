@@ -1,1 +1,85 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::myNetheriteShovel,completed,checkAccepted","children":[]},{"name":"checkAccepted","text":"","response":"","function":"moveOnAcceptedQuest::myNetheriteShovel,shovelAccepted,shovelNotStarted","children":[]},{"name":"completed","text":"Thank you so much for helping out. Those two have been feuding forever.","response":"","function":"","children":[{"name":"noProb","text":"","response":"","function":"","children":[]}]},{"name":"shovelNotStarted","text":"","response":"","function":"moveOnCompleteQuest::myDiamondPickaxe,pickaxeCompleted,pickaxeNotStarted","children":[]},{"name":"pickaxeNotStarted","text":"Hello","response":"","function":"","children":[{"name":"hello","text":"How are you?","response":"Oh, I could be better","function":"","children":[{"name":"whatsUp","text":"What's up?","response":"Well, my neighbors are at it again. Feuding with each other. Would give anything for just a little peace around here.","function":"","children":[{"name":"anything","text":"Anything?","response":"Not *anything* of course. Actually, a lot closer to nothing. But if you're in a helping mood, they live over there. Go look into it.","function":"","children":[]},{"name":"canIHelp","text":"Can I help?","response":"You can indeed. Just head over that way, the west part of town, where the bickering noises are.","function":"","children":[]},{"name":"reject","text":"I know the feeling. Whelp, so long!","response":"","function":"","children":[]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::myNetheriteShovel,completed,checkAccepted",
+            "children": []
+        },
+        {
+            "name": "checkAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::myNetheriteShovel,shovelAccepted,shovelNotStarted",
+            "children": []
+        },
+        {
+            "name": "completed",
+            "text": "Thank you so much for helping out. Those two have been feuding forever.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "noProb",
+                    "text": "",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "shovelNotStarted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::myDiamondPickaxe,pickaxeCompleted,pickaxeNotStarted",
+            "children": []
+        },
+        {
+            "name": "pickaxeNotStarted",
+            "text": "Hello",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "How are you?",
+                    "response": "Oh, I could be better",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "whatsUp",
+                            "text": "What's up?",
+                            "response": "Well, my neighbors are at it again. Feuding with each other. Would give anything for just a little peace around here.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "anything",
+                                    "text": "Anything?",
+                                    "response": "Not *anything* of course. Actually, a lot closer to nothing. But if you're in a helping mood, they live over there. Go look into it.",
+                                    "function": "",
+                                    "children": []
+                                },
+                                {
+                                    "name": "canIHelp",
+                                    "text": "Can I help?",
+                                    "response": "You can indeed. Just head over that way, the west part of town, where the bickering noises are.",
+                                    "function": "",
+                                    "children": []
+                                },
+                                {
+                                    "name": "reject",
+                                    "text": "I know the feeling. Whelp, so long!",
+                                    "response": "",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

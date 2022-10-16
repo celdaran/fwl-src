@@ -1,1 +1,99 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"completedMelonCheck","x":173,"y":17},{"name":"noQuestForYouYet","x":6,"y":160},{"name":"noThanks","x":174,"y":264},{"name":"questCheck","x":347,"y":211},{"name":"questAcceptedCheck","x":347,"y":330},{"name":"questCompleted","x":511,"y":282},{"name":"willDo","x":677,"y":323},{"name":"needHelp","x":699,"y":409},{"name":"questAccepted","x":513,"y":438},{"name":"postQuestIntro","x":180,"y":112},{"name":"nextQuest","x":338,"y":27},{"name":"skills","x":512,"y":93},{"name":"bluerock","x":687,"y":111},{"name":"acceptQuest","x":897,"y":155},{"name":"where","x":1081,"y":179},{"name":"thanks","x":1246,"y":217},{"name":"reject","x":893,"y":292},{"name":"where2","x":1095,"y":344}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "completedMelonCheck",
+            "x": 173,
+            "y": 17
+        },
+        {
+            "name": "noQuestForYouYet",
+            "x": 6,
+            "y": 160
+        },
+        {
+            "name": "noThanks",
+            "x": 174,
+            "y": 264
+        },
+        {
+            "name": "questCheck",
+            "x": 347,
+            "y": 211
+        },
+        {
+            "name": "questAcceptedCheck",
+            "x": 347,
+            "y": 330
+        },
+        {
+            "name": "questCompleted",
+            "x": 511,
+            "y": 282
+        },
+        {
+            "name": "willDo",
+            "x": 677,
+            "y": 323
+        },
+        {
+            "name": "needHelp",
+            "x": 699,
+            "y": 409
+        },
+        {
+            "name": "questAccepted",
+            "x": 513,
+            "y": 438
+        },
+        {
+            "name": "postQuestIntro",
+            "x": 180,
+            "y": 112
+        },
+        {
+            "name": "nextQuest",
+            "x": 338,
+            "y": 27
+        },
+        {
+            "name": "skills",
+            "x": 512,
+            "y": 93
+        },
+        {
+            "name": "bluerock",
+            "x": 687,
+            "y": 111
+        },
+        {
+            "name": "acceptQuest",
+            "x": 897,
+            "y": 155
+        },
+        {
+            "name": "where",
+            "x": 1081,
+            "y": 179
+        },
+        {
+            "name": "thanks",
+            "x": 1246,
+            "y": 217
+        },
+        {
+            "name": "reject",
+            "x": 893,
+            "y": 292
+        },
+        {
+            "name": "where2",
+            "x": 1095,
+            "y": 344
+        }
+    ]
+}

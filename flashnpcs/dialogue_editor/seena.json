@@ -1,1 +1,104 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"clockNotAccepted","x":226,"y":249},{"name":"nobody","x":409,"y":228},{"name":"greatWarrior","x":424,"y":330},{"name":"wanderingWizard","x":412,"y":420},{"name":"clockCompleted","x":36,"y":120},{"name":"checkClockAccepted","x":36,"y":213},{"name":"startDownstairs","x":223,"y":121},{"name":"what","x":418,"y":106},{"name":"startWhat","x":613,"y":121},{"name":"okay","x":808,"y":151},{"name":"nopenopenope","x":816,"y":248},{"name":"checkSpidersCompleted","x":35,"y":316},{"name":"spidersCompleted","x":225,"y":458},{"name":"rewardFound","x":420,"y":565},{"name":"nextPrompt1","x":613,"y":581},{"name":"myReward","x":408,"y":672},{"name":"nextPrompt2","x":611,"y":837},{"name":"checkSpidersAccepted","x":35,"y":425},{"name":"spidersAccepted","x":153,"y":616}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "clockNotAccepted",
+            "x": 226,
+            "y": 249
+        },
+        {
+            "name": "nobody",
+            "x": 409,
+            "y": 228
+        },
+        {
+            "name": "greatWarrior",
+            "x": 424,
+            "y": 330
+        },
+        {
+            "name": "wanderingWizard",
+            "x": 412,
+            "y": 420
+        },
+        {
+            "name": "clockCompleted",
+            "x": 36,
+            "y": 120
+        },
+        {
+            "name": "checkClockAccepted",
+            "x": 36,
+            "y": 213
+        },
+        {
+            "name": "startDownstairs",
+            "x": 223,
+            "y": 121
+        },
+        {
+            "name": "what",
+            "x": 418,
+            "y": 106
+        },
+        {
+            "name": "startWhat",
+            "x": 613,
+            "y": 121
+        },
+        {
+            "name": "okay",
+            "x": 808,
+            "y": 151
+        },
+        {
+            "name": "nopenopenope",
+            "x": 816,
+            "y": 248
+        },
+        {
+            "name": "checkSpidersCompleted",
+            "x": 35,
+            "y": 316
+        },
+        {
+            "name": "spidersCompleted",
+            "x": 225,
+            "y": 458
+        },
+        {
+            "name": "rewardFound",
+            "x": 420,
+            "y": 565
+        },
+        {
+            "name": "nextPrompt1",
+            "x": 613,
+            "y": 581
+        },
+        {
+            "name": "myReward",
+            "x": 408,
+            "y": 672
+        },
+        {
+            "name": "nextPrompt2",
+            "x": 611,
+            "y": 837
+        },
+        {
+            "name": "checkSpidersAccepted",
+            "x": 35,
+            "y": 425
+        },
+        {
+            "name": "spidersAccepted",
+            "x": 153,
+            "y": 616
+        }
+    ]
+}

@@ -1,1 +1,142 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::vaderCostume,costumeCompleted,checkCostumeAccepted","children":[]},{"name":"hello","text":"Greetings and salutations.","response":"","function":"","children":[{"name":"helloBack","text":"Hey @npc. Seena sent me. I'm making some inquiries about a clock.","response":"A clock? Not sure I actually know anything about that. Probably because I'm so busy.","function":"","children":[{"name":"busy","text":"Busy?","response":"Yes. We're getting ready to leave for ComicCon. That's why I'm dressed like this.","function":"","children":[{"name":"iLikeIt","text":"I like it?","response":"Like it? It's terrible. I made a Darth Vader costume, but it's missing. So at the last minute I had to throw together \"Toga Man.\"","function":"","children":[{"name":"sorry1","text":"Oh. I'm sorry. Can I help at all?","response":"Well, if you could find it, I would be forever grateful.","function":"","children":[{"name":"accept1","text":"I'll do it!","response":"Great. I'd check with Brianna upstairs first. Last I saw, she was getting something to eat.","function":"acceptQuest::vaderCostume","children":[]}]}]},{"name":"whatAreYou","text":"What character are you supposed to be?","response":"I'm *supposed* to be Darth Vader. I spent six months making a costume but someone took it. Now I'm dressed up as \"Toga Man,\" whatever that is.","function":"","children":[{"name":"sorry2","text":"Oh. I'm sorry. Can help help at all?","response":"Well, if you could find it, I would be forever grateful.","function":"","children":[{"name":"accept2","text":"I'll do it!","response":"Great. I'd check with Brianna upstairs first. Last I saw, she was getting something to eat.","function":"acceptQuest::vaderCostume","children":[]}]}]}]}]}]},{"name":"costumeCompleted","text":"Well, thanks for tracking down my Vader costume. I'll work this out with Igor later.","response":"","function":"","children":[{"name":"aboutThatClock","text":"Glad to help. Now, about that clock? I was told that a Man in Black with piercing white eyes stole it. I haven't been able to track him down.","response":"You mean Jim?","function":"","children":[{"name":"jim","text":"Jim?","response":"Yeah, Jim. You just described his ComicCon outfit. He stole a clock? ","function":"","children":[{"name":"stoleAClock","text":"Yeah. Stole a clock. Rang a bell. Ran off. The whole village is buzzing about it.","response":"I don't know. That doesn't sound like him.","function":"","children":[{"name":"knowWhere","text":"So, do you know where he is?","response":"Yeah, he's been staying in the Guest House, out back.","function":"","children":[]}]}]}]}]},{"name":"checkCostumeAccepted","text":"","response":"","function":"moveOnAcceptedQuest::vaderCostume,costumeAccepted,hello","children":[]},{"name":"costumeAccepted","text":"Have you found my Darth Vader outfit yet? Maybe check with Brianna. She was about to get something to eat upstairs.","response":"","function":"","children":[{"name":"onMyWay","text":"Okay, I'll head to the dining room.","response":"","function":"","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::vaderCostume,costumeCompleted,checkCostumeAccepted",
+            "children": []
+        },
+        {
+            "name": "hello",
+            "text": "Greetings and salutations.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "helloBack",
+                    "text": "Hey @npc. Seena sent me. I'm making some inquiries about a clock.",
+                    "response": "A clock? Not sure I actually know anything about that. Probably because I'm so busy.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "busy",
+                            "text": "Busy?",
+                            "response": "Yes. We're getting ready to leave for ComicCon. That's why I'm dressed like this.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "iLikeIt",
+                                    "text": "I like it?",
+                                    "response": "Like it? It's terrible. I made a Darth Vader costume, but it's missing. So at the last minute I had to throw together \"Toga Man.\"",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "sorry1",
+                                            "text": "Oh. I'm sorry. Can I help at all?",
+                                            "response": "Well, if you could find it, I would be forever grateful.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "accept1",
+                                                    "text": "I'll do it!",
+                                                    "response": "Great. I'd check with Brianna upstairs first. Last I saw, she was getting something to eat.",
+                                                    "function": "acceptQuest::vaderCostume",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "whatAreYou",
+                                    "text": "What character are you supposed to be?",
+                                    "response": "I'm *supposed* to be Darth Vader. I spent six months making a costume but someone took it. Now I'm dressed up as \"Toga Man,\" whatever that is.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "sorry2",
+                                            "text": "Oh. I'm sorry. Can help help at all?",
+                                            "response": "Well, if you could find it, I would be forever grateful.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "accept2",
+                                                    "text": "I'll do it!",
+                                                    "response": "Great. I'd check with Brianna upstairs first. Last I saw, she was getting something to eat.",
+                                                    "function": "acceptQuest::vaderCostume",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "costumeCompleted",
+            "text": "Well, thanks for tracking down my Vader costume. I'll work this out with Igor later.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "aboutThatClock",
+                    "text": "Glad to help. Now, about that clock? I was told that a Man in Black with piercing white eyes stole it. I haven't been able to track him down.",
+                    "response": "You mean Jim?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "jim",
+                            "text": "Jim?",
+                            "response": "Yeah, Jim. You just described his ComicCon outfit. He stole a clock? ",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "stoleAClock",
+                                    "text": "Yeah. Stole a clock. Rang a bell. Ran off. The whole village is buzzing about it.",
+                                    "response": "I don't know. That doesn't sound like him.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "knowWhere",
+                                            "text": "So, do you know where he is?",
+                                            "response": "Yeah, he's been staying in the Guest House, out back.",
+                                            "function": "",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "checkCostumeAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::vaderCostume,costumeAccepted,hello",
+            "children": []
+        },
+        {
+            "name": "costumeAccepted",
+            "text": "Have you found my Darth Vader outfit yet? Maybe check with Brianna. She was about to get something to eat upstairs.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "onMyWay",
+                    "text": "Okay, I'll head to the dining room.",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

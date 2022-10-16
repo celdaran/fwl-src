@@ -1,1 +1,108 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::villageClock,clockCompleted,checkClockAccepted","children":[]},{"name":"hello","text":"Greetings and salutations!","response":"","function":"","children":[{"name":"likeCostume","text":"Hi there, I like your costume!","response":"Thanks. Apparently Hana likes it too.","function":"","children":[{"name":"clockInquiry","text":"Great. So, um, I'm looking for a clock? It belongs to the village. It was stolen. They want it back. So I'm helping them.","response":"Sorry, I don't know anything about that.","function":"","children":[{"name":"bye2","text":"Bye Felicia","response":"","function":"","children":[]}]},{"name":"hana","text":"Hana?","response":"Yes. Apparently we're wearing the same outfit. And I can't talk her out of it.","function":"","children":[]}]}]},{"name":"clockCompleted","text":"[clock completed placeholder]","response":"","function":"","children":[]},{"name":"checkClockAccepted","text":"","response":"","function":"moveOnAcceptedQuest::villageClock,clockAccepted,clockNotAccepted","children":[]},{"name":"clockAccepted","text":"","response":"","function":"moveOnCompleteQuest::hanaQuest,hanaCompleted,hello","children":[]},{"name":"clockNotAccepted","text":"Greetings and salutations!","response":"","function":"","children":[{"name":"helloThere","text":"Hello there.","response":"Can I help you?","function":"","children":[{"name":"justExploring","text":"Just exploring.","response":"Sounds fun. If you haven't been down to the village yet, I would try that. That is, if you're looking for adventure.","function":"","children":[{"name":"bye","text":"Bye Felicia","response":"","function":"","children":[]}]}]}]},{"name":"hanaCompleted","text":"Glad you got Hana her ComicCon tickets back. Is she still going as Leia?","response":"","function":"","children":[]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::villageClock,clockCompleted,checkClockAccepted",
+            "children": []
+        },
+        {
+            "name": "hello",
+            "text": "Greetings and salutations!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "likeCostume",
+                    "text": "Hi there, I like your costume!",
+                    "response": "Thanks. Apparently Hana likes it too.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "clockInquiry",
+                            "text": "Great. So, um, I'm looking for a clock? It belongs to the village. It was stolen. They want it back. So I'm helping them.",
+                            "response": "Sorry, I don't know anything about that.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "bye2",
+                                    "text": "Bye Felicia",
+                                    "response": "",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "hana",
+                            "text": "Hana?",
+                            "response": "Yes. Apparently we're wearing the same outfit. And I can't talk her out of it.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "clockCompleted",
+            "text": "[clock completed placeholder]",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "checkClockAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::villageClock,clockAccepted,clockNotAccepted",
+            "children": []
+        },
+        {
+            "name": "clockAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::hanaQuest,hanaCompleted,hello",
+            "children": []
+        },
+        {
+            "name": "clockNotAccepted",
+            "text": "Greetings and salutations!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "helloThere",
+                    "text": "Hello there.",
+                    "response": "Can I help you?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "justExploring",
+                            "text": "Just exploring.",
+                            "response": "Sounds fun. If you haven't been down to the village yet, I would try that. That is, if you're looking for adventure.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "bye",
+                                    "text": "Bye Felicia",
+                                    "response": "",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "hanaCompleted",
+            "text": "Glad you got Hana her ComicCon tickets back. Is she still going as Leia?",
+            "response": "",
+            "function": "",
+            "children": []
+        }
+    ]
+}

@@ -1,1 +1,49 @@
-{"entries":[{"name":"init","text":"Good evening. Do you need any sailing supplies?","response":"","function":"","children":[{"name":"hello","text":"Not today, thank you.","response":"What brings you to these parts?","function":"","children":[{"name":"onAQuest","text":"I'm on a quest","response":"A quest?","function":"","children":[{"name":"indeed","text":"Indeed! Trying to save the world.","response":"Whelp, good luck with that!","function":"","children":[]}]},{"name":"justWandering","text":"Oh, nothing. Just seeing the sights.","response":"Well you've come to the right place. Our little cove is wonderful. Be sure to meet some of the locals.","function":"","children":[]},{"name":"onSecondThought","text":"On second thought, some shipping supplies sound good.","response":"Wonderful! Feel free to poke around the chests and buckets, then ask me any questions you might have.","function":"","children":[]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Good evening. Do you need any sailing supplies?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Not today, thank you.",
+                    "response": "What brings you to these parts?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "onAQuest",
+                            "text": "I'm on a quest",
+                            "response": "A quest?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "indeed",
+                                    "text": "Indeed! Trying to save the world.",
+                                    "response": "Whelp, good luck with that!",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "justWandering",
+                            "text": "Oh, nothing. Just seeing the sights.",
+                            "response": "Well you've come to the right place. Our little cove is wonderful. Be sure to meet some of the locals.",
+                            "function": "",
+                            "children": []
+                        },
+                        {
+                            "name": "onSecondThought",
+                            "text": "On second thought, some shipping supplies sound good.",
+                            "response": "Wonderful! Feel free to poke around the chests and buckets, then ask me any questions you might have.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

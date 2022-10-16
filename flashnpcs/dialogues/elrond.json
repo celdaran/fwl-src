@@ -1,1 +1,97 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnAcceptedQuest::findElrond2,accepted,hello","children":[]},{"name":"hello","text":"Good evening, wanderer. Is it still raining?","response":"","function":"","children":[{"name":"stillRaining","text":"Yes, still raining.","response":"Well, try to stay dry when you leave.","function":"","children":[{"name":"iWill","text":"Leave?","response":"Yes. Good-bye, now!","function":"","children":[]}]}]},{"name":"accepted","text":"Good evening, wanderer. Is it still raining?","response":"","function":"","children":[{"name":"stillRaining2","text":"Yes, still raining.","response":"That's good. We need the rain. So, what brings you here?","function":"","children":[{"name":"youreElrond","text":"Wait, your name is Elrond?","response":"Yes.","function":"","children":[{"name":"confirmName","text":"Like, *Elrond* Elrond? From The Lord of the Rings. The head of Rivendell and all that. Arwen's father?","response":"Arwen? Did you say Arwen?","function":"","children":[{"name":"yesArwen","text":"Yes, Arwen!","response":"I don't know anything about any of this \"rings\" business. But why do you speak of Arwen?","function":"","children":[{"name":"because","text":"She sent me to find you. She hasn't seen you in weeks.","response":"'Tis true. I've missed her so. But this NPC mod does not allow me to move. Will you give her word that I'm all right?","function":"","children":[{"name":"ofCourse","text":"Of course. It would be my pleasure to help both THE Arwen and THE Elrond in one night?","response":"Who?","function":"","children":[{"name":"thankYou","text":"Never mind. I'll give her the message.","response":"Thank you!","function":"","children":[]}]}]}]}]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::findElrond2,accepted,hello",
+            "children": []
+        },
+        {
+            "name": "hello",
+            "text": "Good evening, wanderer. Is it still raining?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "stillRaining",
+                    "text": "Yes, still raining.",
+                    "response": "Well, try to stay dry when you leave.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "iWill",
+                            "text": "Leave?",
+                            "response": "Yes. Good-bye, now!",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "accepted",
+            "text": "Good evening, wanderer. Is it still raining?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "stillRaining2",
+                    "text": "Yes, still raining.",
+                    "response": "That's good. We need the rain. So, what brings you here?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "youreElrond",
+                            "text": "Wait, your name is Elrond?",
+                            "response": "Yes.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "confirmName",
+                                    "text": "Like, *Elrond* Elrond? From The Lord of the Rings. The head of Rivendell and all that. Arwen's father?",
+                                    "response": "Arwen? Did you say Arwen?",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "yesArwen",
+                                            "text": "Yes, Arwen!",
+                                            "response": "I don't know anything about any of this \"rings\" business. But why do you speak of Arwen?",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "because",
+                                                    "text": "She sent me to find you. She hasn't seen you in weeks.",
+                                                    "response": "'Tis true. I've missed her so. But this NPC mod does not allow me to move. Will you give her word that I'm all right?",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "ofCourse",
+                                                            "text": "Of course. It would be my pleasure to help both THE Arwen and THE Elrond in one night?",
+                                                            "response": "Who?",
+                                                            "function": "",
+                                                            "children": [
+                                                                {
+                                                                    "name": "thankYou",
+                                                                    "text": "Never mind. I'll give her the message.",
+                                                                    "response": "Thank you!",
+                                                                    "function": "",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

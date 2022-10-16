@@ -1,1 +1,19 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"hello","x":196,"y":38},{"name":"omg","x":373,"y":45}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "hello",
+            "x": 196,
+            "y": 38
+        },
+        {
+            "name": "omg",
+            "x": 373,
+            "y": 45
+        }
+    ]
+}

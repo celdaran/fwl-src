@@ -1,1 +1,34 @@
-{"entries":[{"name":"init","text":"Hello, traveller","response":"","function":"","children":[{"name":"hello","text":"Hello.","response":"I'm gonna stop you right there. If this is about Mike & Ike, I don't want any part of it.","function":"","children":[{"name":"itIs","text":"It is...","response":"Okay, bye!","function":"","children":[]},{"name":"itIsnt","text":"It's not...","response":"That's good, but if you don't mind, I'm still kind of busy here. Have a good day.","function":"","children":[]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Hello, traveller",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Hello.",
+                    "response": "I'm gonna stop you right there. If this is about Mike & Ike, I don't want any part of it.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "itIs",
+                            "text": "It is...",
+                            "response": "Okay, bye!",
+                            "function": "",
+                            "children": []
+                        },
+                        {
+                            "name": "itIsnt",
+                            "text": "It's not...",
+                            "response": "That's good, but if you don't mind, I'm still kind of busy here. Have a good day.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

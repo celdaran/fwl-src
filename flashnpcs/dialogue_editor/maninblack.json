@@ -1,1 +1,124 @@
-{"entries":[{"name":"init","x":15,"y":15},{"name":"costumeAccepted","x":114,"y":481},{"name":"clockCompleted","x":203,"y":17},{"name":"checkClockAccepted","x":15,"y":143},{"name":"clockNotAccepted","x":202,"y":146},{"name":"clockAccepted","x":15,"y":254},{"name":"costumeCompleted","x":202,"y":257},{"name":"checkCostumeAccepted","x":19,"y":373},{"name":"costumeNotAccepted","x":110,"y":564},{"name":"greetings","x":415,"y":376},{"name":"hello","x":594,"y":369},{"name":"areYou","x":780,"y":360},{"name":"defineThief","x":959,"y":408},{"name":"thenHow","x":1146,"y":411},{"name":"costumeGuess","x":1311,"y":384},{"name":"whereIsIt","x":1487,"y":397},{"name":"whyNot","x":1667,"y":406},{"name":"checkKeyAccepted","x":220,"y":381},{"name":"keyCompleted","x":397,"y":263},{"name":"haveClock","x":580,"y":233},{"name":"nowWhat","x":767,"y":225},{"name":"how","x":962,"y":209},{"name":"thanks","x":1120,"y":258},{"name":"keyAccepted","x":413,"y":491}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 15,
+            "y": 15
+        },
+        {
+            "name": "costumeAccepted",
+            "x": 114,
+            "y": 481
+        },
+        {
+            "name": "clockCompleted",
+            "x": 203,
+            "y": 17
+        },
+        {
+            "name": "checkClockAccepted",
+            "x": 15,
+            "y": 143
+        },
+        {
+            "name": "clockNotAccepted",
+            "x": 202,
+            "y": 146
+        },
+        {
+            "name": "clockAccepted",
+            "x": 15,
+            "y": 254
+        },
+        {
+            "name": "costumeCompleted",
+            "x": 202,
+            "y": 257
+        },
+        {
+            "name": "checkCostumeAccepted",
+            "x": 19,
+            "y": 373
+        },
+        {
+            "name": "costumeNotAccepted",
+            "x": 110,
+            "y": 564
+        },
+        {
+            "name": "greetings",
+            "x": 415,
+            "y": 376
+        },
+        {
+            "name": "hello",
+            "x": 594,
+            "y": 369
+        },
+        {
+            "name": "areYou",
+            "x": 780,
+            "y": 360
+        },
+        {
+            "name": "defineThief",
+            "x": 959,
+            "y": 408
+        },
+        {
+            "name": "thenHow",
+            "x": 1146,
+            "y": 411
+        },
+        {
+            "name": "costumeGuess",
+            "x": 1311,
+            "y": 384
+        },
+        {
+            "name": "whereIsIt",
+            "x": 1487,
+            "y": 397
+        },
+        {
+            "name": "whyNot",
+            "x": 1667,
+            "y": 406
+        },
+        {
+            "name": "checkKeyAccepted",
+            "x": 220,
+            "y": 381
+        },
+        {
+            "name": "keyCompleted",
+            "x": 397,
+            "y": 263
+        },
+        {
+            "name": "haveClock",
+            "x": 580,
+            "y": 233
+        },
+        {
+            "name": "nowWhat",
+            "x": 767,
+            "y": 225
+        },
+        {
+            "name": "how",
+            "x": 962,
+            "y": 209
+        },
+        {
+            "name": "thanks",
+            "x": 1120,
+            "y": 258
+        },
+        {
+            "name": "keyAccepted",
+            "x": 413,
+            "y": 491
+        }
+    ]
+}

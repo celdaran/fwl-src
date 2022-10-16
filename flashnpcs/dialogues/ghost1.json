@@ -1,1 +1,19 @@
-{"entries":[{"name":"init","text":"ooOOooo!","response":"","function":"","children":[{"name":"hello","text":"A g-g-g-ghost!","response":"","function":"","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "ooOOooo!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "A g-g-g-ghost!",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

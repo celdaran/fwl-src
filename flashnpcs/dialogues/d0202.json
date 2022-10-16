@@ -1,1 +1,39 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::villageClock,completed,checkAccepted","children":[]},{"name":"notYet","text":"Not yet  :^(","response":"","function":"","children":[]},{"name":"inProgress","text":"Good luck with that clock thing.","response":"","function":"","children":[]},{"name":"checkAccepted","text":"","response":"","function":"moveOnAcceptedQuest::villageClock,inProgress,notYet","children":[]},{"name":"completed","text":"Pretty sweet the way you found that clock","response":"","function":"","children":[]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::villageClock,completed,checkAccepted",
+            "children": []
+        },
+        {
+            "name": "notYet",
+            "text": "Not yet  :^(",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "inProgress",
+            "text": "Good luck with that clock thing.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "checkAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::villageClock,inProgress,notYet",
+            "children": []
+        },
+        {
+            "name": "completed",
+            "text": "Pretty sweet the way you found that clock",
+            "response": "",
+            "function": "",
+            "children": []
+        }
+    ]
+}

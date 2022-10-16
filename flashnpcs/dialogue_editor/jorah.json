@@ -1,1 +1,29 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"hello","x":192,"y":16},{"name":"whereAmI","x":355,"y":23},{"name":"part3","x":517,"y":29},{"name":"parting","x":673,"y":36}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "hello",
+            "x": 192,
+            "y": 16
+        },
+        {
+            "name": "whereAmI",
+            "x": 355,
+            "y": 23
+        },
+        {
+            "name": "part3",
+            "x": 517,
+            "y": 29
+        },
+        {
+            "name": "parting",
+            "x": 673,
+            "y": 36
+        }
+    ]
+}

@@ -1,1 +1,19 @@
-{"entries":[{"name":"init","text":"Oh! Hello.","response":"","function":"","children":[{"name":"hello","text":"Hi there. Didn't mean to frighten you. I'll be on my way.","response":"Take care, now.","function":"","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Oh! Hello.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Hi there. Didn't mean to frighten you. I'll be on my way.",
+                    "response": "Take care, now.",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

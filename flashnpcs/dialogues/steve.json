@@ -1,1 +1,170 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::myNetheriteShovel,completed,checkAccepted","children":[]},{"name":"hello","text":"Can I help you?","response":"","function":"","children":[{"name":"yes","text":"No, but I think I can help you.","response":"How so?","function":"","children":[{"name":"aboutMike","text":"Well, your neighbor Mike...","response":"Brother!","function":"","children":[{"name":"aboutMike2","text":"Brother. Your brother Mike said you stole his Diamond Pickaxe.","response":"Steal? I didn't steal it. He loaned it to me.","function":"","children":[{"name":"really","text":"Really?","response":"Really, really.","function":"","children":[{"name":"volunteer","text":"I can return it","response":"That would be SO helpful. It's over in the barrel there.","function":"","children":[]}]}]}]}]},{"name":"otherQuest","text":"Did you steal Mike's Diamond Pickaxe?","response":"Steal it! Is that what he's saying!? He loaned it to me last month. I was doing some mining, needed an axe, and he said, \"Here, take mine!\"","function":"","children":[{"name":"seriously","text":"Seriously?","response":"Seriously! And ever since then, he keeps telling everyone I stole it. I even tried to return it twice, but he hasn't been around.","function":"","children":[{"name":"wantMe","text":"Want me to try?","response":"Fine. It's in the barrel over there.","function":"","children":[{"name":"onIt","text":"Okay, I'm on it.","response":"Great. And while you're at it, can you do something for me?","function":"","children":[{"name":"yes2","text":"Yes","response":"Great. Mike has my netherite shovel. If you could go talk to him and bring it back here, that'd be great.","function":"acceptQuest::myNetheriteShovel","children":[]},{"name":"no2","text":"No, my plate's already full.","response":"Okay, but come back if you can.","function":"","children":[]}]}]}]}]}]},{"name":"completed","text":"A great weight has been lifted.","response":"","function":"","children":[]},{"name":"checkAccepted","text":"","response":"","function":"moveOnAcceptedQuest::myNetheriteShovel,accepted,notAccepted","children":[]},{"name":"accepted","text":"Here's hopin' you get my stolen goods back!","response":"","function":"","children":[]},{"name":"notAccepted","text":"","response":"","function":"moveOnCompleteQuest::myDiamondPickaxe,pickAxeCompleted,hello","children":[]},{"name":"pickAxeCompleted","text":"So he got his pickaxe back, did he?","response":"","function":"","children":[{"name":"pickaxeReturned","text":"Yes. I took care of it.","response":"Think you could now help me out?","function":"","children":[{"name":"yes3","text":"I could. What is it?","response":"Well, Mike has my Netherite Shovel. Yes, this whole time he wanted his dumb pickaxe back from me, he's held onto my own favorite digging tool.","function":"","children":[{"name":"onIt2","text":"All right. I might as well make this whole situation right.","response":"Thanks!","function":"acceptQuest::myNetheriteShovel","children":[]}]},{"name":"no3","text":"Sorry, my plate is still too full.","response":"Okay, but if you ever need something to do, come on back.","function":"","children":[]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::myNetheriteShovel,completed,checkAccepted",
+            "children": []
+        },
+        {
+            "name": "hello",
+            "text": "Can I help you?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "yes",
+                    "text": "No, but I think I can help you.",
+                    "response": "How so?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "aboutMike",
+                            "text": "Well, your neighbor Mike...",
+                            "response": "Brother!",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "aboutMike2",
+                                    "text": "Brother. Your brother Mike said you stole his Diamond Pickaxe.",
+                                    "response": "Steal? I didn't steal it. He loaned it to me.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "really",
+                                            "text": "Really?",
+                                            "response": "Really, really.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "volunteer",
+                                                    "text": "I can return it",
+                                                    "response": "That would be SO helpful. It's over in the barrel there.",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "otherQuest",
+                    "text": "Did you steal Mike's Diamond Pickaxe?",
+                    "response": "Steal it! Is that what he's saying!? He loaned it to me last month. I was doing some mining, needed an axe, and he said, \"Here, take mine!\"",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "seriously",
+                            "text": "Seriously?",
+                            "response": "Seriously! And ever since then, he keeps telling everyone I stole it. I even tried to return it twice, but he hasn't been around.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "wantMe",
+                                    "text": "Want me to try?",
+                                    "response": "Fine. It's in the barrel over there.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "onIt",
+                                            "text": "Okay, I'm on it.",
+                                            "response": "Great. And while you're at it, can you do something for me?",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "yes2",
+                                                    "text": "Yes",
+                                                    "response": "Great. Mike has my netherite shovel. If you could go talk to him and bring it back here, that'd be great.",
+                                                    "function": "acceptQuest::myNetheriteShovel",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "no2",
+                                                    "text": "No, my plate's already full.",
+                                                    "response": "Okay, but come back if you can.",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "completed",
+            "text": "A great weight has been lifted.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "checkAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::myNetheriteShovel,accepted,notAccepted",
+            "children": []
+        },
+        {
+            "name": "accepted",
+            "text": "Here's hopin' you get my stolen goods back!",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "notAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::myDiamondPickaxe,pickAxeCompleted,hello",
+            "children": []
+        },
+        {
+            "name": "pickAxeCompleted",
+            "text": "So he got his pickaxe back, did he?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "pickaxeReturned",
+                    "text": "Yes. I took care of it.",
+                    "response": "Think you could now help me out?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "yes3",
+                            "text": "I could. What is it?",
+                            "response": "Well, Mike has my Netherite Shovel. Yes, this whole time he wanted his dumb pickaxe back from me, he's held onto my own favorite digging tool.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "onIt2",
+                                    "text": "All right. I might as well make this whole situation right.",
+                                    "response": "Thanks!",
+                                    "function": "acceptQuest::myNetheriteShovel",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "no3",
+                            "text": "Sorry, my plate is still too full.",
+                            "response": "Okay, but if you ever need something to do, come on back.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

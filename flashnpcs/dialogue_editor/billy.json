@@ -1,1 +1,29 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"hello","x":224,"y":14},{"name":"directions","x":213,"y":131},{"name":"where","x":385,"y":170},{"name":"thanks","x":569,"y":201}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "hello",
+            "x": 224,
+            "y": 14
+        },
+        {
+            "name": "directions",
+            "x": 213,
+            "y": 131
+        },
+        {
+            "name": "where",
+            "x": 385,
+            "y": 170
+        },
+        {
+            "name": "thanks",
+            "x": 569,
+            "y": 201
+        }
+    ]
+}

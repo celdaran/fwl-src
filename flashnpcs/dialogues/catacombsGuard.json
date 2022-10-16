@@ -1,1 +1,140 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::koldosTomb2,koldosTombCompleted,koldosTombCheckAccepted","children":[]},{"name":"koldosTombCompleted","text":"Thank you so much for finding this blade. I shall treasure it.","response":"","function":"","children":[{"name":"nextSteps","text":"Any idea what I should do next?","response":"Head back into the Catacombs and head out the back door. That will lead you to further adventure.","function":"catacombExitPlate","children":[{"name":"where","text":"The back door? Where?","response":"Very near to Koldo's Tomb. You can't miss it. It's an iron door.","function":"","children":[]}]}]},{"name":"koldosTombCheckAccepted","text":"","response":"","function":"moveOnAcceptedQuest::koldosTomb2,koldosTombAccepted,koldosTombNotAccepted","children":[]},{"name":"koldosTombAccepted","text":"You again?","response":"","function":"","children":[{"name":"meAgain","text":"Me again!","response":"Have you found my blade?","function":"","children":[]}]},{"name":"koldosTombNotAccepted","text":"Halt!","response":"","function":"","children":[{"name":"mayIPass","text":"Good evening, good knight. May I pass?","response":"None shall pass.","function":"","children":[]},{"name":"confirmLocation","text":"Is this the entrance to the Catacombs?","response":"It is.","function":"","children":[{"name":"howToProceed","text":"How might one enter?","response":"None shall enter here.","function":"","children":[{"name":"howToProceed2","text":"Is there not some test where I may prove my worth?","response":"None shall enter.","function":"","children":[{"name":"areYouSure","text":"Nothing?","response":"Well... there might be something.","function":"","children":[{"name":"iKnewIt","text":"I knew it. What is it?","response":"Legend has it that in a hidden tomb in the Catacombs lies a legendary blade. I should like to add it to my collection.","function":"","children":[{"name":"proceed","text":"Go on...","response":"It's in Koldo's Tomb, if it exists at all. But none have every discovered it. If you find it for me, I can help you on your own journey.","function":"","children":[{"name":"accept","text":"Okay, I'll do it.","response":"Speak to Dedric first, if you can. He's behind the warped door.","function":"acceptQuest::koldosTomb2","children":[]}]},{"name":"reject","text":"I don't know. That sounds like stealing.","response":"Fair enough. Good evening to you!","function":"","children":[]}]}]}]}]}]},{"name":"nevermind","text":"Uhh. You appear to be busy. I'll be on my way.","response":"","function":"","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::koldosTomb2,koldosTombCompleted,koldosTombCheckAccepted",
+            "children": []
+        },
+        {
+            "name": "koldosTombCompleted",
+            "text": "Thank you so much for finding this blade. I shall treasure it.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "nextSteps",
+                    "text": "Any idea what I should do next?",
+                    "response": "Head back into the Catacombs and head out the back door. That will lead you to further adventure.",
+                    "function": "catacombExitPlate",
+                    "children": [
+                        {
+                            "name": "where",
+                            "text": "The back door? Where?",
+                            "response": "Very near to Koldo's Tomb. You can't miss it. It's an iron door.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "koldosTombCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::koldosTomb2,koldosTombAccepted,koldosTombNotAccepted",
+            "children": []
+        },
+        {
+            "name": "koldosTombAccepted",
+            "text": "You again?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "meAgain",
+                    "text": "Me again!",
+                    "response": "Have you found my blade?",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "koldosTombNotAccepted",
+            "text": "Halt!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "mayIPass",
+                    "text": "Good evening, good knight. May I pass?",
+                    "response": "None shall pass.",
+                    "function": "",
+                    "children": []
+                },
+                {
+                    "name": "confirmLocation",
+                    "text": "Is this the entrance to the Catacombs?",
+                    "response": "It is.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "howToProceed",
+                            "text": "How might one enter?",
+                            "response": "None shall enter here.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "howToProceed2",
+                                    "text": "Is there not some test where I may prove my worth?",
+                                    "response": "None shall enter.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "areYouSure",
+                                            "text": "Nothing?",
+                                            "response": "Well... there might be something.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "iKnewIt",
+                                                    "text": "I knew it. What is it?",
+                                                    "response": "Legend has it that in a hidden tomb in the Catacombs lies a legendary blade. I should like to add it to my collection.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "proceed",
+                                                            "text": "Go on...",
+                                                            "response": "It's in Koldo's Tomb, if it exists at all. But none have every discovered it. If you find it for me, I can help you on your own journey.",
+                                                            "function": "",
+                                                            "children": [
+                                                                {
+                                                                    "name": "accept",
+                                                                    "text": "Okay, I'll do it.",
+                                                                    "response": "Speak to Dedric first, if you can. He's behind the warped door.",
+                                                                    "function": "acceptQuest::koldosTomb2",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "reject",
+                                                            "text": "I don't know. That sounds like stealing.",
+                                                            "response": "Fair enough. Good evening to you!",
+                                                            "function": "",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "nevermind",
+                    "text": "Uhh. You appear to be busy. I'll be on my way.",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,247 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::koldosTomb2,koldoCompleted,checkKoldoAccepted","children":[]},{"name":"koldoCompleted","text":"","response":"","function":"moveOnCompleteQuest::gillyGlass,questCompleted,checkQuestAccepted","children":[]},{"name":"questCompleted","text":"I absolutely love my new spyglass. I can see everything now.","response":"","function":"","children":[{"name":"happyToHelp","text":"Happy to help.","response":"And speaking of help, I believe I promised to help you find your special purpose.","function":"","children":[{"name":"youDid","text":"You did. How can you help?","response":"You need to travel to Dwarrowdelf. It's a long way, but fortunately, you can take the train.","function":"","children":[{"name":"ohBoy","text":"Oh boy! @p loves trains!","response":"Head to the basement, where you'll find Platform 9¾. Take the Express and go from there. Good luck and may the Great Ones guide you.","function":"openTrainPlatform","children":[]}]}]}]},{"name":"checkQuestAccepted","text":"","response":"","function":"moveOnAcceptedQuest::gillyGlass,glassAccepted,glassNotAccepted","children":[]},{"name":"glassAccepted","text":"How dost thou fareth on thy quest?","response":"","function":"","children":[{"name":"fine","text":"Fine. I should be done soon.","response":"Great. See you soon, then.","function":"","children":[]},{"name":"barelyStarted","text":"I've barely started.","response":"No rush. We'll see you when we see you.","function":"","children":[]},{"name":"help","text":"tbh, could use some help.","response":"Understandable. I've found that when trying to learn something, the library is always a good place to start.","function":"","children":[{"name":"toTheLibrary","text":"Then I'll go find the library.","response":"And don't forget, it needs to be engraved \"Boss Gilly\" so everyone will know it's mine.","function":"","children":[]}]}]},{"name":"checkKoldoAccepted","text":"","response":"","function":"moveOnAcceptedQuest::koldosTomb2,koldoAccepted,koldoNotAccepted","children":[]},{"name":"koldoAccepted","text":"I love your enthusiasm for exploration, but you really should go finish up Koldo's Tomb first.","response":"","function":"","children":[]},{"name":"koldoNotAccepted","text":"Hail, explorer!","response":"","function":"","children":[{"name":"hailBack","text":"Hello. How are you?","response":"Doing well. Business is booming in Druvine.","function":"","children":[{"name":"business","text":"Excellent. Speaking of business. I'm working on something myself. It's called Part Three of the quest.","response":"Congratulations. But if you're looking for business here, you need some more experience.","function":"","children":[{"name":"moreExperience","text":"More experience? Where? How?","response":"I recommend visiting the Catacombs and talking to the Guard out front for starters.","function":"","children":[]},{"name":"iHearYa","text":"I hear ya. Have a good one.","response":"You too.","function":"","children":[]}]}]}]},{"name":"glassNotAccepted","text":"Hail, explorer!","response":"","function":"","children":[{"name":"hailBack2","text":"Hail, @npc!","response":"Welcome to Druvine. The Great Ones have brought you here for a purpose, I deem.","function":"","children":[{"name":"purpose","text":"I don't know about any \"Great Ones\" but Redd sent me in this direction.","response":"Redd? Who is Redd?","function":"","children":[{"name":"aboutRedd","text":"Just some guy. I had to find a clock for him.","response":"So you find things?","function":"","children":[{"name":"iDo","text":"I do.","response":"Can you also make things?","function":"","children":[{"name":"idk","text":"I don't know. I've never tried.","response":"Tell me, what is your goal?","function":"","children":[{"name":"adventure","text":"Redd sent me on an adventure. I believe I might have a special purpose.","response":"I do not doubt this Redd. I think I might help you find your special purpose. But you must prove your worth.","function":"","children":[{"name":"byDoingWhat","text":"What do I need to do?","response":"Druvine is a large place. As I stand here and look around my city, it would help if I could see better. I should like a spyglass.","function":"","children":[{"name":"how","text":"How do I get one?","response":"You'll have to make one. You should be able to find everything you need to do so, here in Druvine. ","function":"","children":[{"name":"isThatAll","text":"Is that all?","response":"I would like it engraved. It should say \"Boss Gilly\" on it. Are you up for it?","function":"","children":[{"name":"accept","text":"I accept","response":"Good luck to you.","function":"acceptQuest::gillyGlass","children":[]},{"name":"reject","text":"Sounds like a lot of work. I'll pass.","response":"You sure? I'm pretty confident this is part of the main quest and your density. I mean, destiny.","function":"","children":[{"name":"accept2","text":"Okay, I'll do it.","response":"","function":"acceptQuest::gillyGlass","children":[]}]}]}]}]}]}]}]}]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::koldosTomb2,koldoCompleted,checkKoldoAccepted",
+            "children": []
+        },
+        {
+            "name": "koldoCompleted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::gillyGlass,questCompleted,checkQuestAccepted",
+            "children": []
+        },
+        {
+            "name": "questCompleted",
+            "text": "I absolutely love my new spyglass. I can see everything now.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "happyToHelp",
+                    "text": "Happy to help.",
+                    "response": "And speaking of help, I believe I promised to help you find your special purpose.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "youDid",
+                            "text": "You did. How can you help?",
+                            "response": "You need to travel to Dwarrowdelf. It's a long way, but fortunately, you can take the train.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "ohBoy",
+                                    "text": "Oh boy! @p loves trains!",
+                                    "response": "Head to the basement, where you'll find Platform 9¾. Take the Express and go from there. Good luck and may the Great Ones guide you.",
+                                    "function": "openTrainPlatform",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "checkQuestAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::gillyGlass,glassAccepted,glassNotAccepted",
+            "children": []
+        },
+        {
+            "name": "glassAccepted",
+            "text": "How dost thou fareth on thy quest?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "fine",
+                    "text": "Fine. I should be done soon.",
+                    "response": "Great. See you soon, then.",
+                    "function": "",
+                    "children": []
+                },
+                {
+                    "name": "barelyStarted",
+                    "text": "I've barely started.",
+                    "response": "No rush. We'll see you when we see you.",
+                    "function": "",
+                    "children": []
+                },
+                {
+                    "name": "help",
+                    "text": "tbh, could use some help.",
+                    "response": "Understandable. I've found that when trying to learn something, the library is always a good place to start.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "toTheLibrary",
+                            "text": "Then I'll go find the library.",
+                            "response": "And don't forget, it needs to be engraved \"Boss Gilly\" so everyone will know it's mine.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "checkKoldoAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::koldosTomb2,koldoAccepted,koldoNotAccepted",
+            "children": []
+        },
+        {
+            "name": "koldoAccepted",
+            "text": "I love your enthusiasm for exploration, but you really should go finish up Koldo's Tomb first.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "koldoNotAccepted",
+            "text": "Hail, explorer!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hailBack",
+                    "text": "Hello. How are you?",
+                    "response": "Doing well. Business is booming in Druvine.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "business",
+                            "text": "Excellent. Speaking of business. I'm working on something myself. It's called Part Three of the quest.",
+                            "response": "Congratulations. But if you're looking for business here, you need some more experience.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "moreExperience",
+                                    "text": "More experience? Where? How?",
+                                    "response": "I recommend visiting the Catacombs and talking to the Guard out front for starters.",
+                                    "function": "",
+                                    "children": []
+                                },
+                                {
+                                    "name": "iHearYa",
+                                    "text": "I hear ya. Have a good one.",
+                                    "response": "You too.",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "glassNotAccepted",
+            "text": "Hail, explorer!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hailBack2",
+                    "text": "Hail, @npc!",
+                    "response": "Welcome to Druvine. The Great Ones have brought you here for a purpose, I deem.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "purpose",
+                            "text": "I don't know about any \"Great Ones\" but Redd sent me in this direction.",
+                            "response": "Redd? Who is Redd?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "aboutRedd",
+                                    "text": "Just some guy. I had to find a clock for him.",
+                                    "response": "So you find things?",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "iDo",
+                                            "text": "I do.",
+                                            "response": "Can you also make things?",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "idk",
+                                                    "text": "I don't know. I've never tried.",
+                                                    "response": "Tell me, what is your goal?",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "adventure",
+                                                            "text": "Redd sent me on an adventure. I believe I might have a special purpose.",
+                                                            "response": "I do not doubt this Redd. I think I might help you find your special purpose. But you must prove your worth.",
+                                                            "function": "",
+                                                            "children": [
+                                                                {
+                                                                    "name": "byDoingWhat",
+                                                                    "text": "What do I need to do?",
+                                                                    "response": "Druvine is a large place. As I stand here and look around my city, it would help if I could see better. I should like a spyglass.",
+                                                                    "function": "",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "how",
+                                                                            "text": "How do I get one?",
+                                                                            "response": "You'll have to make one. You should be able to find everything you need to do so, here in Druvine. ",
+                                                                            "function": "",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "isThatAll",
+                                                                                    "text": "Is that all?",
+                                                                                    "response": "I would like it engraved. It should say \"Boss Gilly\" on it. Are you up for it?",
+                                                                                    "function": "",
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "name": "accept",
+                                                                                            "text": "I accept",
+                                                                                            "response": "Good luck to you.",
+                                                                                            "function": "acceptQuest::gillyGlass",
+                                                                                            "children": []
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "reject",
+                                                                                            "text": "Sounds like a lot of work. I'll pass.",
+                                                                                            "response": "You sure? I'm pretty confident this is part of the main quest and your density. I mean, destiny.",
+                                                                                            "function": "",
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "name": "accept2",
+                                                                                                    "text": "Okay, I'll do it.",
+                                                                                                    "response": "",
+                                                                                                    "function": "acceptQuest::gillyGlass",
+                                                                                                    "children": []
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

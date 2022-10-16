@@ -1,1 +1,54 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::experiment2,completed,checkAccepted","children":[]},{"name":"completed","text":"You did it and I've taken the thing from you that was the quest's \"gather\" objective.","response":"","function":"","children":[]},{"name":"checkAccepted","text":"","response":"","function":"moveOnAcceptedQuest::experiment2,accepted,notStarted","children":[]},{"name":"accepted","text":"Please find the thing.","response":"","function":"","children":[]},{"name":"notStarted","text":"Do you want a quest?","response":"","function":"","children":[{"name":"accept","text":"Yes","response":"Thank you!","function":"acceptQuest::experiment2","children":[]},{"name":"reject","text":"No","response":"Oh well","function":"close","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::experiment2,completed,checkAccepted",
+            "children": []
+        },
+        {
+            "name": "completed",
+            "text": "You did it and I've taken the thing from you that was the quest's \"gather\" objective.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "checkAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::experiment2,accepted,notStarted",
+            "children": []
+        },
+        {
+            "name": "accepted",
+            "text": "Please find the thing.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "notStarted",
+            "text": "Do you want a quest?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "accept",
+                    "text": "Yes",
+                    "response": "Thank you!",
+                    "function": "acceptQuest::experiment2",
+                    "children": []
+                },
+                {
+                    "name": "reject",
+                    "text": "No",
+                    "response": "Oh well",
+                    "function": "close",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
