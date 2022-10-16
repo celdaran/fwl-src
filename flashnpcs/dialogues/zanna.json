@@ -1,1 +1,111 @@
-{"entries":[{"name":"init","text":". . .","response":"","function":"","children":[{"name":"hello","text":"Hello?","response":". . .","function":"","children":[{"name":"disturb","text":"My apologies. I see I am disturbing you.","response":". . .","function":"","children":[{"name":"bye","text":"Take care now.","response":"","function":"","children":[]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::whitheredSkullOfDoom2,questCompleted,checkAccepted",
+            "children": []
+        },
+        {
+            "name": "notAccepted",
+            "text": ". . .",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Hello?",
+                    "response": "",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "disturb",
+                            "text": "My apologies. I see I am disturbing you.",
+                            "response": ". . .",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "bye",
+                                    "text": "Take care now.",
+                                    "response": "",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "checkAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::whitheredSkullOfDoom2,questAccepted,notAccepted",
+            "children": []
+        },
+        {
+            "name": "questAccepted",
+            "text": "Hello?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "helloBack",
+                    "text": "Hello, back! Could you help me?",
+                    "response": "Depends. What do you need?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "tryingToFind",
+                            "text": "Trying to find a Whithered Skull of Doom.",
+                            "response": "Oooo. Are you sure?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "iThinkSo",
+                                    "text": "I think so. Why?",
+                                    "response": "Well, it's the skull of \"doom.\" That can't be good, right?",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "butINeedIt",
+                                            "text": "But I need it. It's for a quest.",
+                                            "response": "A quest! Well, why didn't you say so? That's a horse of a different color! I think Osanna has the skull.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "whatIfLocked",
+                                                    "text": "And what if she keeps it locked in a chest?",
+                                                    "response": "You'll find the key you need in a chest nearby. Good luck!",
+                                                    "function": "openOsannasKey",
+                                                    "children": [
+                                                        {
+                                                            "name": "thanks",
+                                                            "text": "Thanks!",
+                                                            "response": "",
+                                                            "function": "",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "questCompleted",
+            "text": "I bid you good luck in all your future endeavors.",
+            "response": "",
+            "function": "",
+            "children": []
+        }
+    ]
+}

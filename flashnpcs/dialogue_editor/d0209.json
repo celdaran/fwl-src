@@ -1,1 +1,104 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"completed","x":33,"y":227},{"name":"checkAccepted","x":35,"y":127},{"name":"inProgress","x":209,"y":176},{"name":"notStarted","x":175,"y":36},{"name":"notStarted2","x":338,"y":35},{"name":"proceed","x":512,"y":51},{"name":"accept","x":684,"y":63},{"name":"clue","x":885,"y":95},{"name":"reject","x":683,"y":205},{"name":"bingo","x":872,"y":237},{"name":"passingThru","x":514,"y":252},{"name":"clockAccepted","x":226,"y":283},{"name":"nothingElse","x":432,"y":368},{"name":"clockInfo","x":415,"y":450},{"name":"clockNotAccepted","x":187,"y":403},{"name":"theives","x":615,"y":510},{"name":"splashing","x":800,"y":532},{"name":"south","x":1007,"y":537},{"name":"thanks","x":1182,"y":573}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "completed",
+            "x": 33,
+            "y": 227
+        },
+        {
+            "name": "checkAccepted",
+            "x": 35,
+            "y": 127
+        },
+        {
+            "name": "inProgress",
+            "x": 209,
+            "y": 176
+        },
+        {
+            "name": "notStarted",
+            "x": 175,
+            "y": 36
+        },
+        {
+            "name": "notStarted2",
+            "x": 338,
+            "y": 35
+        },
+        {
+            "name": "proceed",
+            "x": 512,
+            "y": 51
+        },
+        {
+            "name": "accept",
+            "x": 684,
+            "y": 63
+        },
+        {
+            "name": "clue",
+            "x": 885,
+            "y": 95
+        },
+        {
+            "name": "reject",
+            "x": 683,
+            "y": 205
+        },
+        {
+            "name": "bingo",
+            "x": 872,
+            "y": 237
+        },
+        {
+            "name": "passingThru",
+            "x": 514,
+            "y": 252
+        },
+        {
+            "name": "clockAccepted",
+            "x": 226,
+            "y": 283
+        },
+        {
+            "name": "nothingElse",
+            "x": 432,
+            "y": 368
+        },
+        {
+            "name": "clockInfo",
+            "x": 415,
+            "y": 450
+        },
+        {
+            "name": "clockNotAccepted",
+            "x": 187,
+            "y": 403
+        },
+        {
+            "name": "theives",
+            "x": 615,
+            "y": 510
+        },
+        {
+            "name": "splashing",
+            "x": 800,
+            "y": 532
+        },
+        {
+            "name": "south",
+            "x": 1007,
+            "y": 537
+        },
+        {
+            "name": "thanks",
+            "x": 1182,
+            "y": 573
+        }
+    ]
+}

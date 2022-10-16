@@ -1,1 +1,29 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"notYet","x":200,"y":30},{"name":"inProgress","x":200,"y":125},{"name":"checkAccepted","x":16,"y":106},{"name":"completed","x":37,"y":195}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "notYet",
+            "x": 200,
+            "y": 30
+        },
+        {
+            "name": "inProgress",
+            "x": 200,
+            "y": 125
+        },
+        {
+            "name": "checkAccepted",
+            "x": 16,
+            "y": 106
+        },
+        {
+            "name": "completed",
+            "x": 37,
+            "y": 195
+        }
+    ]
+}

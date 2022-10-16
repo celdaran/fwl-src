@@ -1,1 +1,48 @@
-{"entries":[{"name":"init","text":"Hi @p!","response":"","function":"","children":[{"name":"hello","text":"Hello @npc!","response":"Howdy, stranger! I'm Farmer Ham. And I grow pumpkins and melons.","function":"","children":[]},{"name":"imlistening","text":"Do you have a quest for me?","response":"","function":"","children":[{"name":"yesQuest","text":"I do, if you're ready, willing, and able!","response":"Great! Here it is!","function":"acceptQuest::qtest01","children":[]},{"name":"noQuest","text":"No, I'm sorry.","response":"","function":"","children":[]}]},{"name":"bye","text":"Bye!","response":"Have a good one!","function":"","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Hi @p!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Hello @npc!",
+                    "response": "Howdy, stranger! I'm Farmer Ham. And I grow pumpkins and melons.",
+                    "function": "",
+                    "children": []
+                },
+                {
+                    "name": "imlistening",
+                    "text": "Do you have a quest for me?",
+                    "response": "",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "yesQuest",
+                            "text": "I do, if you're ready, willing, and able!",
+                            "response": "Great! Here it is!",
+                            "function": "acceptQuest::qtest01",
+                            "children": []
+                        },
+                        {
+                            "name": "noQuest",
+                            "text": "No, I'm sorry.",
+                            "response": "",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "bye",
+                    "text": "Bye!",
+                    "response": "Have a good one!",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

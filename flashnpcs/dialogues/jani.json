@@ -1,1 +1,208 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::villageClock,completedQuest,checkAccepted","children":[]},{"name":"completedQuest","text":"Thanks again for your help. Hopefully Red puts the clock back into place soon.","response":"","function":"","children":[]},{"name":"foundIt1","text":"Have you found our clock yet?","response":"","function":"","children":[{"name":"encourage","text":"Not yet.","response":"I'm sure you'll find it.","function":"","children":[{"name":"leave","text":"I'm sure of it too.","response":"","function":"","children":[]},{"name":"anyClues","text":"Umm... You wouldn't happen to have any clues, would you?","response":"I might!","function":"","children":[{"name":"clue1","text":"Great, what have you got?","response":"Let me start by saying: I'm so glad you asked. I've been hanging out here by the Clock Place ever since it was stolen last Saturday night. I saw everything. I can't figure out why no one's asked me anything yet. But that's pretty much how it is with me. I was born and raised in the village but people don't seem to notice me. Until that time I burned down the bridge. But it wasn't my fault! No one taught me about fireworks!","function":"","children":[{"name":"doGoOn","text":"Please, tell me more about this fireworks incident","response":"Well, you see, it was last fall, during the harvest celebration. Usually the village elders are in charge of such things, but I found Gandalf's stash and grabbed the big one. I lit it off and it flew up, up in the air and exploded into a million points of light. Then it turned into a dragon. Then it swooped down on the bridge over there, and the whole thing went up in flames.","function":"","children":[{"name":"storyResponse1","text":"Wow!","response":"I know, right? Anyway, they stole the clock, rang the bell behind you, then ran off.","function":"","children":[{"name":"whichWay1","text":"Which way?","response":"Head west, just to your left here, towards West Bridge. Cross, then head to the south shore. I think they went to Upton's Castle.","function":"","children":[]}]},{"name":"storyResponse2","text":"No way!","response":"Way! Anyway, they stole the clock, rang the bell behind you, then ran off.","function":"","children":[{"name":"whichWay2","text":"Which way?","response":"Head west, just to your left here, towards West Bridge. Cross, then head to the south shore. I think they went to Upton's Castle.","function":"","children":[]}]},{"name":"storyResponse3","text":"Great, now about that stolen clock?","response":"Oh yeah. Well, the theives stole it, rang that bell there, and then crossed the bridge.","function":"","children":[{"name":"whichWay3","text":"Which way?","response":"Head west, just to your left here, towards West Bridge. Cross, then head to the south shore. I think they went to Upton's Castle.","function":"","children":[]}]}]},{"name":"greatStory","text":"That's a great story, but how about those clues?","response":"Oh yeah! Sorry. Well, the night the clock was stolen, I was here. A band of theives grabbed it. Then they rang that bell. And after that they crossed the bridge over there and then ran.","function":"","children":[{"name":"whichWay4","text":"Which way?","response":"Head west, just to your left here, towards West Bridge. Cross, then head to the south shore. I think they went to Upton's Castle.","function":"","children":[]}]}]}]}]},{"name":"onMyWayBack","text":"Yes! I have it right here!","response":"Awesome. You probably already know this, but head back to Redd for your reward.","function":"","children":[{"name":"backToRed","text":"On my way!","response":"","function":"","children":[]}]}]},{"name":"checkAccepted","text":"","response":"","function":"moveOnAcceptedQuest::villageClock,inProgress,notStarted","children":[]},{"name":"notStarted","text":"Howdy, stranger. If you're looking for work, I'd go find Redd down by West Bridge.","response":"","function":"","children":[]},{"name":"inProgress","text":"","response":"","function":"moveOnCompleteQuest::vaderCostume,foundIt2,foundIt1","children":[]},{"name":"foundIt2","text":"Have you found our clock yet?","response":"","function":"","children":[{"name":"notStolen","text":"I have, but the clock wasn't stolen, was it?","response":"How do you mean?","function":"","children":[{"name":"iMean","text":"I mean that I talked to the Man in Black and he says you gave it to him. He didn't steal anything.","response":"I... but... I...","function":"","children":[{"name":"fessUp","text":"Fess up!","response":"Okay, fine. I gave it to him. He was down here, shopping for stuff for his ComicCon trip. I was cleaning the clock and he saw it and said it would go perfect with his costume. So I let him have it.","function":"","children":[{"name":"fessUp2","text":"Is that all?","response":"Basically. After that, I felt like I'd made a mistake. So I rang the bell and made up the story about him stealing it.","function":"","children":[{"name":"backToRed2","text":"I'm taking this back to Redd. I have to tell him.","response":"That's fair.","function":"","children":[]}]}]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::villageClock,completedQuest,checkAccepted",
+            "children": []
+        },
+        {
+            "name": "completedQuest",
+            "text": "Thanks again for your help. Hopefully Red puts the clock back into place soon.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "foundIt1",
+            "text": "Have you found our clock yet?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "encourage",
+                    "text": "Not yet.",
+                    "response": "I'm sure you'll find it.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "leave",
+                            "text": "I'm sure of it too.",
+                            "response": "",
+                            "function": "",
+                            "children": []
+                        },
+                        {
+                            "name": "anyClues",
+                            "text": "Umm... You wouldn't happen to have any clues, would you?",
+                            "response": "I might!",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "clue1",
+                                    "text": "Great, what have you got?",
+                                    "response": "Let me start by saying: I'm so glad you asked. I've been hanging out here by the Clock Place ever since it was stolen last Saturday night. I saw everything. I can't figure out why no one's asked me anything yet. But that's pretty much how it is with me. I was born and raised in the village but people don't seem to notice me. Until that time I burned down the bridge. But it wasn't my fault! No one taught me about fireworks!",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "doGoOn",
+                                            "text": "Please, tell me more about this fireworks incident",
+                                            "response": "Well, you see, it was last fall, during the harvest celebration. Usually the village elders are in charge of such things, but I found Gandalf's stash and grabbed the big one. I lit it off and it flew up, up in the air and exploded into a million points of light. Then it turned into a dragon. Then it swooped down on the bridge over there, and the whole thing went up in flames.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "storyResponse1",
+                                                    "text": "Wow!",
+                                                    "response": "I know, right? Anyway, they stole the clock, rang the bell behind you, then ran off.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "whichWay1",
+                                                            "text": "Which way?",
+                                                            "response": "Head west, just to your left here, towards West Bridge. Cross, then head to the south shore. I think they went to Upton's Castle.",
+                                                            "function": "",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "storyResponse2",
+                                                    "text": "No way!",
+                                                    "response": "Way! Anyway, they stole the clock, rang the bell behind you, then ran off.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "whichWay2",
+                                                            "text": "Which way?",
+                                                            "response": "Head west, just to your left here, towards West Bridge. Cross, then head to the south shore. I think they went to Upton's Castle.",
+                                                            "function": "",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "storyResponse3",
+                                                    "text": "Great, now about that stolen clock?",
+                                                    "response": "Oh yeah. Well, the theives stole it, rang that bell there, and then crossed the bridge.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "whichWay3",
+                                                            "text": "Which way?",
+                                                            "response": "Head west, just to your left here, towards West Bridge. Cross, then head to the south shore. I think they went to Upton's Castle.",
+                                                            "function": "",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "greatStory",
+                                            "text": "That's a great story, but how about those clues?",
+                                            "response": "Oh yeah! Sorry. Well, the night the clock was stolen, I was here. A band of theives grabbed it. Then they rang that bell. And after that they crossed the bridge over there and then ran.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "whichWay4",
+                                                    "text": "Which way?",
+                                                    "response": "Head west, just to your left here, towards West Bridge. Cross, then head to the south shore. I think they went to Upton's Castle.",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "onMyWayBack",
+                    "text": "Yes! I have it right here!",
+                    "response": "Awesome. You probably already know this, but head back to Redd for your reward.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "backToRed",
+                            "text": "On my way!",
+                            "response": "",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "checkAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::villageClock,inProgress,notStarted",
+            "children": []
+        },
+        {
+            "name": "notStarted",
+            "text": "Howdy, stranger. If you're looking for work, I'd go find Redd down by West Bridge.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "inProgress",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::vaderCostume,foundIt2,foundIt1",
+            "children": []
+        },
+        {
+            "name": "foundIt2",
+            "text": "Have you found our clock yet?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "notStolen",
+                    "text": "I have, but the clock wasn't stolen, was it?",
+                    "response": "How do you mean?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "iMean",
+                            "text": "I mean that I talked to the Man in Black and he says you gave it to him. He didn't steal anything.",
+                            "response": "I... but... I...",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "fessUp",
+                                    "text": "Fess up!",
+                                    "response": "Okay, fine. I gave it to him. He was down here, shopping for stuff for his ComicCon trip. I was cleaning the clock and he saw it and said it would go perfect with his costume. So I let him have it.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "fessUp2",
+                                            "text": "Is that all?",
+                                            "response": "Basically. After that, I felt like I'd made a mistake. So I rang the bell and made up the story about him stealing it.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "backToRed2",
+                                                    "text": "I'm taking this back to Redd. I have to tell him.",
+                                                    "response": "That's fair.",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,67 @@
-{"entries":[{"name":"init","text":"Greetings and salutations.","response":"","function":"","children":[{"name":"hello","text":"You... you're all dressed in black.","response":"I am. Does this concern you?","function":"","children":[{"name":"possibleConcern","text":"Well, there's been some talk of a Man in Black who...","response":"Who what...?","function":"","children":[{"name":"eyeColor","text":"Never mind. What color are your eyes?","response":"Brown.","function":"","children":[{"name":"oh","text":"Oh. Okay.","response":"Did you have a question?","function":"","children":[{"name":"nope","text":"Actually, no. I'm good.","response":"I have a question for you, though.","function":"","children":[{"name":"andThatWouldBe","text":"And that would be?","response":"Do you think my Neo costume has a chance of winning anything at ComicCon?","function":"","children":[{"name":"looksGreat","text":"Uhhhh, sure. Looks great!","response":"Thank you.","function":"","children":[]}]}]}]}]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Greetings and salutations.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "You... you're all dressed in black.",
+                    "response": "I am. Does this concern you?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "possibleConcern",
+                            "text": "Well, there's been some talk of a Man in Black who...",
+                            "response": "Who what...?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "eyeColor",
+                                    "text": "Never mind. What color are your eyes?",
+                                    "response": "Brown.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "oh",
+                                            "text": "Oh. Okay.",
+                                            "response": "Did you have a question?",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "nope",
+                                                    "text": "Actually, no. I'm good.",
+                                                    "response": "I have a question for you, though.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "andThatWouldBe",
+                                                            "text": "And that would be?",
+                                                            "response": "Do you think my Neo costume has a chance of winning anything at ComicCon?",
+                                                            "function": "",
+                                                            "children": [
+                                                                {
+                                                                    "name": "looksGreat",
+                                                                    "text": "Uhhhh, sure. Looks great!",
+                                                                    "response": "Thank you.",
+                                                                    "function": "",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

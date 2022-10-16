@@ -1,1 +1,108 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::frickinBats,completed,acceptCheck","children":[]},{"name":"acceptCheck","text":"","response":"","function":"moveOnAcceptedQuest::frickinBats,accepted,hello","children":[]},{"name":"completed","text":"Thank you so much for taking care of that bat problem. Now if only someone could take care of that lava. It's so hot down here!","response":"","function":"","children":[]},{"name":"accepted","text":"So happy you're helping with the bat problem.","response":"","function":"","children":[{"name":"happyToHelp","text":"No problem. I'm happy to help.","response":"","function":"","children":[]},{"name":"needAClue","text":"You wouldn't happen to know where they are?","response":"They're bats! We're in a cave! They should be easy to find. But, if not, I've heard you can grow your own at need. Head up those stairs to your right and straight back. See what you see.","function":"","children":[]}]},{"name":"hello","text":"Hello, @p!","response":"","function":"","children":[{"name":"hello2","text":"How do you know my name?","response":"I'm Siri. I know everything.","function":"","children":[{"name":"hello3","text":"Then you must know why I'm here?","response":"No. Not really.","function":"","children":[{"name":"request","text":"Do you have anything for me?","response":"I think you know the answer to that.","function":"","children":[{"name":"request2","text":"It's a quest, isn't it?","response":"It seems I am not the only one who knows things. Are you interested in a job?","function":"","children":[{"name":"yes","text":"Yes, please.","response":"The problem is bats. There are too many. They're everywhere. They get in my hair. Please go help with this pest problem, then return to me.","function":"acceptQuest::frickinBats","children":[]},{"name":"no","text":"No thank you.","response":"","function":"","children":[]}]}]},{"name":"bye1","text":"Okay, I guess I'll go","response":"Goodbye","function":"","children":[]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::frickinBats,completed,acceptCheck",
+            "children": []
+        },
+        {
+            "name": "acceptCheck",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::frickinBats,accepted,hello",
+            "children": []
+        },
+        {
+            "name": "completed",
+            "text": "Thank you so much for taking care of that bat problem. Now if only someone could take care of that lava. It's so hot down here!",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "accepted",
+            "text": "So happy you're helping with the bat problem.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "happyToHelp",
+                    "text": "No problem. I'm happy to help.",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                },
+                {
+                    "name": "needAClue",
+                    "text": "You wouldn't happen to know where they are?",
+                    "response": "They're bats! We're in a cave! They should be easy to find. But, if not, I've heard you can grow your own at need. Head up those stairs to your right and straight back. See what you see.",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "hello",
+            "text": "Hello, @p!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello2",
+                    "text": "How do you know my name?",
+                    "response": "I'm Siri. I know everything.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "hello3",
+                            "text": "Then you must know why I'm here?",
+                            "response": "No. Not really.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "request",
+                                    "text": "Do you have anything for me?",
+                                    "response": "I think you know the answer to that.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "request2",
+                                            "text": "It's a quest, isn't it?",
+                                            "response": "It seems I am not the only one who knows things. Are you interested in a job?",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "yes",
+                                                    "text": "Yes, please.",
+                                                    "response": "The problem is bats. There are too many. They're everywhere. They get in my hair. Please go help with this pest problem, then return to me.",
+                                                    "function": "acceptQuest::frickinBats",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "no",
+                                                    "text": "No thank you.",
+                                                    "response": "",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "bye1",
+                                    "text": "Okay, I guess I'll go",
+                                    "response": "Goodbye",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

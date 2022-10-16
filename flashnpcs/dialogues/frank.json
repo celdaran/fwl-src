@@ -1,1 +1,27 @@
-{"entries":[{"name":"init","text":"Someone said something about a pool?","response":"","function":"","children":[{"name":"hello","text":"Ummm... it's not that kind of pool.","response":"Oh.","function":"","children":[{"name":"newDialogueNode","text":"Sorry...","response":"No harm, no foul. ttfn!","function":"","children":[]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Someone said something about a pool?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Ummm... it's not that kind of pool.",
+                    "response": "Oh.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "newDialogueNode",
+                            "text": "Sorry...",
+                            "response": "No harm, no foul. ttfn!",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

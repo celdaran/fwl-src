@@ -1,1 +1,49 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"hello","x":199,"y":21},{"name":"intro","x":374,"y":25},{"name":"zeddSentMe","x":537,"y":33},{"name":"abandonedMines","x":712,"y":63},{"name":"stranger","x":202,"y":119},{"name":"sorry","x":896,"y":78},{"name":"where","x":1089,"y":154},{"name":"thanks","x":1257,"y":162}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "hello",
+            "x": 199,
+            "y": 21
+        },
+        {
+            "name": "intro",
+            "x": 374,
+            "y": 25
+        },
+        {
+            "name": "zeddSentMe",
+            "x": 537,
+            "y": 33
+        },
+        {
+            "name": "abandonedMines",
+            "x": 712,
+            "y": 63
+        },
+        {
+            "name": "stranger",
+            "x": 202,
+            "y": 119
+        },
+        {
+            "name": "sorry",
+            "x": 896,
+            "y": 78
+        },
+        {
+            "name": "where",
+            "x": 1089,
+            "y": 154
+        },
+        {
+            "name": "thanks",
+            "x": 1257,
+            "y": 162
+        }
+    ]
+}

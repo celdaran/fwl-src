@@ -1,1 +1,170 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::vaderCostume,costumeCompleted,checkCostumeAccepted","children":[]},{"name":"hello","text":"Greetings and salutations!","response":"","function":"","children":[{"name":"helloBack1","text":"Hello!","response":"What can I do you for?","function":"","children":[{"name":"clockInquiry","text":"I'm looking for a stolen clock. It belongs to the villagers down below.","response":"Oh. Yeah. I don't know anything about that. Plus, I'm busy. We're getting ready for ComicCon. Like my costume?","function":"","children":[{"name":"costumeReply","text":"It's a good Darth Vader.","response":"Thank you. Well, I have to go. Maybe come back later.","function":"","children":[]}]}]}]},{"name":"costumeCompleted","text":"You finished the quest [placeholder]","response":"","function":"","children":[]},{"name":"checkCostumeAccepted","text":"","response":"","function":"moveOnAcceptedQuest::vaderCostume,checkHanaCompleted,costumeNotAccepted","children":[]},{"name":"checkHanaCompleted","text":"","response":"","function":"moveOnCompleteQuest::hanasTicket,hanaCompleted,checkHanaAccepted","children":[]},{"name":"hanaCompleted","text":"Greetings and salutations!","response":"","function":"","children":[{"name":"helloBack2","text":"Hello. I see you have a nice Darth Vader costume.","response":"Why yes. I made it myself.","function":"","children":[{"name":"didYaThough","text":"Did you, though?","response":"What do you mean?","function":"","children":[{"name":"talkedToAlan","text":"Well, I talked to Alan. He said he made it and that you stole it.","response":"Stole it! I wouldn't say stole it. Maybe, uhhh, borrowed it.","function":"","children":[{"name":"targetNode","text":"\"Borrowed,\" hmmm?","response":"Okay, fine. Yes, I took it without asking. But I was going to give it back. Go back and tell him, I'll return it.","function":"","children":[]}]}]}]}]},{"name":"checkHanaAccepted","text":"","response":"","function":"moveOnAcceptedQuest::hanasTicket,hanaAccepted,start","children":[]},{"name":"hanaAccepted","text":"Accepted village clock, accepted vaderCostume,acceptedHana, not completed Hana","response":"","function":"","children":[]},{"name":"start","text":"Greetings and salutations!","response":"","function":"","children":[{"name":"placeholder","text":"Nice Darth Vader costume.","response":"Isn't it? I spent all year working on it.","function":"","children":[{"name":"didYou","text":"Did you?","response":"I did! You doubt me? Have you been talking to Alan?","function":"","children":[{"name":"talkingToAlan","text":"Ummm...","response":"Look, you have a lot more people to talk to before you and Alan come accusing me of . . . stuff. Come back later and maybe we'll talk.","function":"","children":[]}]}]}]},{"name":"costumeNotAccepted","text":"Greetings and salutations...","response":"","function":"","children":[{"name":"helloBack3","text":"Hi there. I'm trying to find a missing clock. Do you have any clues?","response":"Clock? What clock?","function":"","children":[{"name":"clockDesc","text":"The villagers have a special clock and it's gone missing. They think it's up here.","response":"I don't know about any clock. Too busy with ComicCon preparations, you know? It's kind of a big deal around here.","function":"","children":[]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::vaderCostume,costumeCompleted,checkCostumeAccepted",
+            "children": []
+        },
+        {
+            "name": "hello",
+            "text": "Greetings and salutations!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "helloBack1",
+                    "text": "Hello!",
+                    "response": "What can I do you for?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "clockInquiry",
+                            "text": "I'm looking for a stolen clock. It belongs to the villagers down below.",
+                            "response": "Oh. Yeah. I don't know anything about that. Plus, I'm busy. We're getting ready for ComicCon. Like my costume?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "costumeReply",
+                                    "text": "It's a good Darth Vader.",
+                                    "response": "Thank you. Well, I have to go. Maybe come back later.",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "costumeCompleted",
+            "text": "You finished the quest [placeholder]",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "checkCostumeAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::vaderCostume,checkHanaCompleted,costumeNotAccepted",
+            "children": []
+        },
+        {
+            "name": "checkHanaCompleted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::hanasTicket,hanaCompleted,checkHanaAccepted",
+            "children": []
+        },
+        {
+            "name": "hanaCompleted",
+            "text": "Greetings and salutations!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "helloBack2",
+                    "text": "Hello. I see you have a nice Darth Vader costume.",
+                    "response": "Why yes. I made it myself.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "didYaThough",
+                            "text": "Did you, though?",
+                            "response": "What do you mean?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "talkedToAlan",
+                                    "text": "Well, I talked to Alan. He said he made it and that you stole it.",
+                                    "response": "Stole it! I wouldn't say stole it. Maybe, uhhh, borrowed it.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "targetNode",
+                                            "text": "\"Borrowed,\" hmmm?",
+                                            "response": "Okay, fine. Yes, I took it without asking. But I was going to give it back. Go back and tell him, I'll return it.",
+                                            "function": "",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "checkHanaAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::hanasTicket,hanaAccepted,start",
+            "children": []
+        },
+        {
+            "name": "hanaAccepted",
+            "text": "Accepted village clock, accepted vaderCostume,acceptedHana, not completed Hana",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "start",
+            "text": "Greetings and salutations!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "placeholder",
+                    "text": "Nice Darth Vader costume.",
+                    "response": "Isn't it? I spent all year working on it.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "didYou",
+                            "text": "Did you?",
+                            "response": "I did! You doubt me? Have you been talking to Alan?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "talkingToAlan",
+                                    "text": "Ummm...",
+                                    "response": "Look, you have a lot more people to talk to before you and Alan come accusing me of . . . stuff. Come back later and maybe we'll talk.",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "costumeNotAccepted",
+            "text": "Greetings and salutations...",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "helloBack3",
+                    "text": "Hi there. I'm trying to find a missing clock. Do you have any clues?",
+                    "response": "Clock? What clock?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "clockDesc",
+                            "text": "The villagers have a special clock and it's gone missing. They think it's up here.",
+                            "response": "I don't know about any clock. Too busy with ComicCon preparations, you know? It's kind of a big deal around here.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

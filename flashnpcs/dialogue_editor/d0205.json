@@ -1,1 +1,24 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"hello","x":185,"y":37},{"name":"hello2","x":383,"y":54},{"name":"hello3","x":556,"y":90}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "hello",
+            "x": 185,
+            "y": 37
+        },
+        {
+            "name": "hello2",
+            "x": 383,
+            "y": 54
+        },
+        {
+            "name": "hello3",
+            "x": 556,
+            "y": 90
+        }
+    ]
+}

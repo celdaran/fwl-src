@@ -1,1 +1,11 @@
-{"entries":[{"name":"init","text":"Hi @p!","response":"","function":"raiseBridgeToGwenor","children":[]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Hi @p!",
+            "response": "",
+            "function": "raiseBridgeToGwenor",
+            "children": []
+        }
+    ]
+}

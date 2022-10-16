@@ -1,1 +1,104 @@
-{"entries":[{"name":"init","x":16,"y":16},{"name":"dustCompleted","x":201,"y":15},{"name":"veryMuch","x":365,"y":36},{"name":"findIt","x":523,"y":30},{"name":"now","x":683,"y":30},{"name":"didItWork","x":850,"y":30},{"name":"where","x":1011,"y":35},{"name":"checkDustAccepted","x":17,"y":158},{"name":"dustAccepted","x":203,"y":162},{"name":"dustNotAccepted","x":16,"y":271},{"name":"hailBack","x":198,"y":270},{"name":"koldosTomb2","x":368,"y":272},{"name":"iDoHeDid","x":530,"y":275},{"name":"expectedNoLess","x":690,"y":271},{"name":"sorcersStone","x":843,"y":275},{"name":"neverKnew","x":1010,"y":271},{"name":"accept","x":1173,"y":271},{"name":"reject","x":1174,"y":422},{"name":"accept2","x":1348,"y":409},{"name":"reject2","x":1349,"y":524}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 16,
+            "y": 16
+        },
+        {
+            "name": "dustCompleted",
+            "x": 201,
+            "y": 15
+        },
+        {
+            "name": "veryMuch",
+            "x": 365,
+            "y": 36
+        },
+        {
+            "name": "findIt",
+            "x": 523,
+            "y": 30
+        },
+        {
+            "name": "now",
+            "x": 683,
+            "y": 30
+        },
+        {
+            "name": "didItWork",
+            "x": 850,
+            "y": 30
+        },
+        {
+            "name": "where",
+            "x": 1011,
+            "y": 35
+        },
+        {
+            "name": "checkDustAccepted",
+            "x": 17,
+            "y": 158
+        },
+        {
+            "name": "dustAccepted",
+            "x": 203,
+            "y": 162
+        },
+        {
+            "name": "dustNotAccepted",
+            "x": 16,
+            "y": 271
+        },
+        {
+            "name": "hailBack",
+            "x": 198,
+            "y": 270
+        },
+        {
+            "name": "koldosTomb2",
+            "x": 368,
+            "y": 272
+        },
+        {
+            "name": "iDoHeDid",
+            "x": 530,
+            "y": 275
+        },
+        {
+            "name": "expectedNoLess",
+            "x": 690,
+            "y": 271
+        },
+        {
+            "name": "sorcersStone",
+            "x": 843,
+            "y": 275
+        },
+        {
+            "name": "neverKnew",
+            "x": 1010,
+            "y": 271
+        },
+        {
+            "name": "accept",
+            "x": 1173,
+            "y": 271
+        },
+        {
+            "name": "reject",
+            "x": 1174,
+            "y": 422
+        },
+        {
+            "name": "accept2",
+            "x": 1348,
+            "y": 409
+        },
+        {
+            "name": "reject2",
+            "x": 1349,
+            "y": 524
+        }
+    ]
+}

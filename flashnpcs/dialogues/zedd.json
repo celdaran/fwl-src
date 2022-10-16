@@ -1,1 +1,146 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::prizeWinningPumpkin,completedMelonCheck,noQuestForYouYet","children":[]},{"name":"completedMelonCheck","text":"","response":"","function":"moveOnCompleteQuest::bigFatMelon,questCheck,noQuestForYouYet","children":[]},{"name":"noQuestForYouYet","text":"Can I get you something from the bar?","response":"","function":"","children":[{"name":"noThanks","text":"No thanks.","response":"Suit yourself, but you can come back and talk to me any time.","function":"","children":[]}]},{"name":"questCheck","text":"","response":"","function":"moveOnCompleteQuest::lapisLazuli,questCompleted,questAcceptedCheck","children":[]},{"name":"questAcceptedCheck","text":"","response":"","function":"moveOnAcceptedQuest::lapisLazuli,questAccepted,postQuestIntro","children":[]},{"name":"questCompleted","text":"Hang on to that gold ingot I gave you. It may come in handy in the future. Like, it just might unlock a chest on a later step of the main quest.","response":"","function":"","children":[{"name":"willDo","text":"Will do!","response":"","function":"","children":[]},{"name":"needHelp","text":"And that would be...?","response":"If you're still looking for adventure, I hear Mari might be handing them out. She lives in that outpost across the stream.","function":"","children":[]}]},{"name":"questAccepted","text":"Don't hang around me too much. It will arouse suspicion.","response":"","function":"","children":[]},{"name":"postQuestIntro","text":"Welcome, newcomer! Can I get you something? A drink perhaps? Cheez Fries? (*lowers voice*) maybe a quest?","response":"","function":"","children":[{"name":"nextQuest","text":"A quest? Yes, let's try that one!","response":"You've probably already seen the Help Wanted book. Well, Old Zedd here is considered the other \"Help Wanted book.\" Farmer Ham says you have some skills.","function":"","children":[{"name":"skills","text":"Oh, I don't know. It was just a couple pieces of fruit...","response":"Ah, modesty. That can take you places. Well, I've caught wind of something. An old blue rock was stolen and is supposedly hidden not far from the port.","function":"","children":[{"name":"bluerock","text":"A blue rock?","response":"Yes, Old Zedd here would be more than happy to pay handsomely for its, uh, quiet return. Find the \"Lapis Lazuli of Light\" and bring it back here. Quietly!","function":"","children":[{"name":"acceptQuest","text":"I'll do it!","response":"Great. Any questions?","function":"acceptQuest::lapisLazuli","children":[{"name":"where","text":"Where is it?","response":"It's likely to be down in the mines, just outside of Southport. Head to one of the smaller, outdoor entrances. There should be a ladder there.","function":"","children":[{"name":"thanks","text":"Thanks!","response":"You're welcome. And good luck!","function":"","children":[]}]}]},{"name":"reject","text":"That sounds a bit beyond my abilities","response":"It's not. Just take the quest. Here.","function":"acceptQuest::lapisLazuli","children":[{"name":"where2","text":"Where is it?","response":"It's likely to be down in the mines, just outside of Southport. Head to one of the smaller, outdoor entrances. There should be a ladder there. Good luck.","function":"","children":[]}]}]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::prizeWinningPumpkin,completedMelonCheck,noQuestForYouYet",
+            "children": []
+        },
+        {
+            "name": "completedMelonCheck",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::bigFatMelon,questCheck,noQuestForYouYet",
+            "children": []
+        },
+        {
+            "name": "noQuestForYouYet",
+            "text": "Can I get you something from the bar?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "noThanks",
+                    "text": "No thanks.",
+                    "response": "Suit yourself, but you can come back and talk to me any time.",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "questCheck",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::lapisLazuli,questCompleted,questAcceptedCheck",
+            "children": []
+        },
+        {
+            "name": "questAcceptedCheck",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::lapisLazuli,questAccepted,postQuestIntro",
+            "children": []
+        },
+        {
+            "name": "questCompleted",
+            "text": "Hang on to that gold ingot I gave you. It may come in handy in the future. Like, it just might unlock a chest on a later step of the main quest.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "willDo",
+                    "text": "Will do!",
+                    "response": "",
+                    "function": "",
+                    "children": []
+                },
+                {
+                    "name": "needHelp",
+                    "text": "And that would be...?",
+                    "response": "If you're still looking for adventure, I hear Mari might be handing them out. She lives in that outpost across the stream.",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "questAccepted",
+            "text": "Don't hang around me too much. It will arouse suspicion.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "postQuestIntro",
+            "text": "Welcome, newcomer! Can I get you something? A drink perhaps? Cheez Fries? (*lowers voice*) maybe a quest?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "nextQuest",
+                    "text": "A quest? Yes, let's try that one!",
+                    "response": "You've probably already seen the Help Wanted book. Well, Old Zedd here is considered the other \"Help Wanted book.\" Farmer Ham says you have some skills.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "skills",
+                            "text": "Oh, I don't know. It was just a couple pieces of fruit...",
+                            "response": "Ah, modesty. That can take you places. Well, I've caught wind of something. An old blue rock was stolen and is supposedly hidden not far from the port.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "bluerock",
+                                    "text": "A blue rock?",
+                                    "response": "Yes, Old Zedd here would be more than happy to pay handsomely for its, uh, quiet return. Find the \"Lapis Lazuli of Light\" and bring it back here. Quietly!",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "acceptQuest",
+                                            "text": "I'll do it!",
+                                            "response": "Great. Any questions?",
+                                            "function": "acceptQuest::lapisLazuli",
+                                            "children": [
+                                                {
+                                                    "name": "where",
+                                                    "text": "Where is it?",
+                                                    "response": "It's likely to be down in the mines, just outside of Southport. Head to one of the smaller, outdoor entrances. There should be a ladder there.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "thanks",
+                                                            "text": "Thanks!",
+                                                            "response": "You're welcome. And good luck!",
+                                                            "function": "",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "reject",
+                                            "text": "That sounds a bit beyond my abilities",
+                                            "response": "It's not. Just take the quest. Here.",
+                                            "function": "acceptQuest::lapisLazuli",
+                                            "children": [
+                                                {
+                                                    "name": "where2",
+                                                    "text": "Where is it?",
+                                                    "response": "It's likely to be down in the mines, just outside of Southport. Head to one of the smaller, outdoor entrances. There should be a ladder there. Good luck.",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

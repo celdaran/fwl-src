@@ -1,1 +1,131 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::villageClock,clockCompleted,checkClockAccepted","children":[]},{"name":"hello","text":"Greetings and salutations.","response":"","function":"","children":[{"name":"lookingForClock","text":"I'm trying to find a missing clock. Can you help?","response":"Possbily. But as luck would have it, I'm in need of some help myself.","function":"","children":[{"name":"whatDoYouNeed","text":"What do you need?","response":"We're getting ready for ComicCon. I'm going as Princess Leia. But I've misplaced my ticket! I have to find it soon, can you help?","function":"","children":[{"name":"acceptQuest","text":"I can try.","response":"Oh, thank you! I know it's around here somewhere.","function":"acceptQuest::hanasTicket","children":[]},{"name":"rejectQuest","text":"I would love to, but I just don't have time.","response":"You sure about that? You never know when some little side quest actually turns out to be in the critical path of the main quest.","function":"","children":[{"name":"acceptQuest2","text":"Okay, fine.","response":"Yippee!","function":"acceptQuest::hanasTicket","children":[]}]}]},{"name":"noTime","text":"(*sigh*) I'm sorry, I don't have time for this.","response":"Fair enough. Should you ever change your mind, though...","function":"","children":[]}]}]},{"name":"clockCompleted","text":"[clock completed placeholder]","response":"","function":"","children":[]},{"name":"checkClockAccepted","text":"","response":"","function":"moveOnAcceptedQuest::villageClock,clockAccepted,clockNotAccepted","children":[]},{"name":"clockAccepted","text":"","response":"","function":"moveOnCompleteQuest::hanasTicket,hanaCompleted,hello","children":[]},{"name":"clockNotAccepted","text":"Greetings and salutations!","response":"","function":"","children":[{"name":"helloThere","text":"Hello there.","response":"Can I help you?","function":"","children":[{"name":"notSure","text":"I'm not sure.","response":"Well, if you haven't been to the village below, just west of here, I suggest you start there. That is, if you're looking for adventure.","function":"","children":[{"name":"willDo","text":"Thanks for the tip.","response":"May our paths cross again.","function":"","children":[]}]}]}]},{"name":"hanaCompleted","text":"I can't thank you enough for your help. I'm really looking forward to the trip. Even if two of us are dressed identically.","response":"","function":"","children":[{"name":"nextClues","text":"Now news about my clock?","response":"Sorry. But if you haven't already, go talk to Igor. He knows things.","function":"","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::villageClock,clockCompleted,checkClockAccepted",
+            "children": []
+        },
+        {
+            "name": "hello",
+            "text": "Greetings and salutations.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "lookingForClock",
+                    "text": "I'm trying to find a missing clock. Can you help?",
+                    "response": "Possbily. But as luck would have it, I'm in need of some help myself.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "whatDoYouNeed",
+                            "text": "What do you need?",
+                            "response": "We're getting ready for ComicCon. I'm going as Princess Leia. But I've misplaced my ticket! I have to find it soon, can you help?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "acceptQuest",
+                                    "text": "I can try.",
+                                    "response": "Oh, thank you! I know it's around here somewhere.",
+                                    "function": "acceptQuest::hanasTicket",
+                                    "children": []
+                                },
+                                {
+                                    "name": "rejectQuest",
+                                    "text": "I would love to, but I just don't have time.",
+                                    "response": "You sure about that? You never know when some little side quest actually turns out to be in the critical path of the main quest.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "acceptQuest2",
+                                            "text": "Okay, fine.",
+                                            "response": "Yippee!",
+                                            "function": "acceptQuest::hanasTicket",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "noTime",
+                            "text": "(*sigh*) I'm sorry, I don't have time for this.",
+                            "response": "Fair enough. Should you ever change your mind, though...",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "clockCompleted",
+            "text": "[clock completed placeholder]",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "checkClockAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::villageClock,clockAccepted,clockNotAccepted",
+            "children": []
+        },
+        {
+            "name": "clockAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::hanasTicket,hanaCompleted,hello",
+            "children": []
+        },
+        {
+            "name": "clockNotAccepted",
+            "text": "Greetings and salutations!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "helloThere",
+                    "text": "Hello there.",
+                    "response": "Can I help you?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "notSure",
+                            "text": "I'm not sure.",
+                            "response": "Well, if you haven't been to the village below, just west of here, I suggest you start there. That is, if you're looking for adventure.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "willDo",
+                                    "text": "Thanks for the tip.",
+                                    "response": "May our paths cross again.",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "hanaCompleted",
+            "text": "I can't thank you enough for your help. I'm really looking forward to the trip. Even if two of us are dressed identically.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "nextClues",
+                    "text": "Now news about my clock?",
+                    "response": "Sorry. But if you haven't already, go talk to Igor. He knows things.",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

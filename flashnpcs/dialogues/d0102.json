@@ -1,1 +1,64 @@
-{"entries":[{"name":"init","text":"Who are you?!","response":"","function":"","children":[{"name":"hello","text":"Nobody!","response":"Nobody?","function":"","children":[{"name":"nobody","text":"I'm lost!","response":"Lost are you! Well, I recommend you get un-lost ASAP.","function":"","children":[]},{"name":"willYouHelp","text":"Can you help me?","response":"Help you? Hmmm. No one's ever asked me for help before. Sure. Why not?","function":"","children":[{"name":"advice","text":"Thank you!","response":"Sure. I don't know what you want or why you're here, but it's been said that the more obstacles there are in your path, the closer you are to achieving your goals. Also, follow the spiders.","function":"","children":[{"name":"thankYou1","text":"Thank you!","response":"","function":"","children":[]},{"name":"thankYou2","text":"Why couldn't it be \"follow the butterflies?\"","response":"","function":"","children":[]}]}]}]},{"name":"hello2","text":"I'm just a wanderer","response":"Well, you should just \"wander\" your way right back out of here, if you know what's good for you!","function":"","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Who are you?!",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Nobody!",
+                    "response": "Nobody?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "nobody",
+                            "text": "I'm lost!",
+                            "response": "Lost are you! Well, I recommend you get un-lost ASAP.",
+                            "function": "",
+                            "children": []
+                        },
+                        {
+                            "name": "willYouHelp",
+                            "text": "Can you help me?",
+                            "response": "Help you? Hmmm. No one's ever asked me for help before. Sure. Why not?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "advice",
+                                    "text": "Thank you!",
+                                    "response": "Sure. I don't know what you want or why you're here, but it's been said that the more obstacles there are in your path, the closer you are to achieving your goals. Also, follow the spiders.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "thankYou1",
+                                            "text": "Thank you!",
+                                            "response": "",
+                                            "function": "",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "thankYou2",
+                                            "text": "Why couldn't it be \"follow the butterflies?\"",
+                                            "response": "",
+                                            "function": "",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "hello2",
+                    "text": "I'm just a wanderer",
+                    "response": "Well, you should just \"wander\" your way right back out of here, if you know what's good for you!",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

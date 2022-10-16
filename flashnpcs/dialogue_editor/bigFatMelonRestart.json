@@ -1,1 +1,9 @@
-{"entries":[{"name":"init","x":10,"y":10}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        }
+    ]
+}

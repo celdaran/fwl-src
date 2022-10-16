@@ -1,1 +1,107 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::bigFatMelon,checkComplete,ignorePlayer","children":[]},{"name":"ignorePlayer","text":"Nothing to see down here. At least if you're not worthy. Are you worthy?","response":"","function":"","children":[{"name":"worthy","text":"I'm worthy!","response":"I don't THINK so!","function":"","children":[]},{"name":"notWorthy","text":"I'm not worthy...","response":"Agreed.","function":"","children":[]}]},{"name":"checkAccepted","text":"","response":"","function":"moveOnAcceptedQuest::jepsonsShovel,inProgress,notStarted","children":[]},{"name":"checkComplete","text":"","response":"","function":"moveOnCompleteQuest::jepsonsShovel,completed,checkAccepted","children":[]},{"name":"completed","text":"I gave you a map and a key to a chest. Use them both well! Now you have a nice day.","response":"","function":"","children":[]},{"name":"inProgress","text":"Seriously, it's just back there. Behind me. Follow that small, glowing path.","response":"","function":"","children":[]},{"name":"notStarted","text":"So, what brings you down to these parts?","response":"","function":"","children":[{"name":"onAQuest","text":"I'm on a quest.","response":"A quest? I was on a quest once. Then I took an arrow to the knee.","function":"","children":[{"name":"sorryToHear","text":"Sorry to hear that. So, can you help me out anyway?","response":"Maybe. I'll admit it gets a bit boring down here. To kill some time, I built myself a swimming pool. Trouble is, after I finished, I lost my bestest shovel. Do you think you could find it?","function":"","children":[{"name":"accept","text":"I'll do it.","response":"Thanks. The pool is just behind me, down that small corridor. Follow the light.","function":"acceptQuest::jepsonsShovel","children":[]},{"name":"reject","text":"No, I'd rather not.","response":"Are you sure? I (*checks notes*) believe this is part of the main quest.","function":"","children":[{"name":"accept2","text":"Oh. Okay. I'll do it.","response":"","function":"acceptQuest::jepsonsShovel","children":[]}]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::bigFatMelon,checkComplete,ignorePlayer",
+            "children": []
+        },
+        {
+            "name": "ignorePlayer",
+            "text": "Nothing to see down here. At least if you're not worthy. Are you worthy?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "worthy",
+                    "text": "I'm worthy!",
+                    "response": "I don't THINK so!",
+                    "function": "",
+                    "children": []
+                },
+                {
+                    "name": "notWorthy",
+                    "text": "I'm not worthy...",
+                    "response": "Agreed.",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "checkAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::jepsonsShovel,inProgress,notStarted",
+            "children": []
+        },
+        {
+            "name": "checkComplete",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::jepsonsShovel,completed,checkAccepted",
+            "children": []
+        },
+        {
+            "name": "completed",
+            "text": "I gave you a map and a key to a chest. Use them both well! Now you have a nice day.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "inProgress",
+            "text": "Seriously, it's just back there. Behind me. Follow that small, glowing path.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "notStarted",
+            "text": "So, what brings you down to these parts?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "onAQuest",
+                    "text": "I'm on a quest.",
+                    "response": "A quest? I was on a quest once. Then I took an arrow to the knee.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "sorryToHear",
+                            "text": "Sorry to hear that. So, can you help me out anyway?",
+                            "response": "Maybe. I'll admit it gets a bit boring down here. To kill some time, I built myself a swimming pool. Trouble is, after I finished, I lost my bestest shovel. Do you think you could find it?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "accept",
+                                    "text": "I'll do it.",
+                                    "response": "Thanks. The pool is just behind me, down that small corridor. Follow the light.",
+                                    "function": "acceptQuest::jepsonsShovel",
+                                    "children": []
+                                },
+                                {
+                                    "name": "reject",
+                                    "text": "No, I'd rather not.",
+                                    "response": "Are you sure? I (*checks notes*) believe this is part of the main quest.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "accept2",
+                                            "text": "Oh. Okay. I'll do it.",
+                                            "response": "",
+                                            "function": "acceptQuest::jepsonsShovel",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "doppleganger",
+    "displayName": "Doppleganger",
+    "objectives": [
+        {
+            "index": 0,
+            "name": "Skull",
+            "type": 0,
+            "amount": 1,
+            "primaryObjective": "minecraft:skeleton_skull"
+        }
+    ],
+    "xpReward": 1,
+    "itemRewards": [
+        {
+            "stack": "minecraft:flint_and_steel{Damage:0}",
+            "count": 1
+        }
+    ],
+    "repeatable": false
+}

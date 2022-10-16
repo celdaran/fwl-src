@@ -1,1 +1,19 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"hello","x":197,"y":45},{"name":"newDialogueNode","x":379,"y":48}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "hello",
+            "x": 197,
+            "y": 45
+        },
+        {
+            "name": "newDialogueNode",
+            "x": 379,
+            "y": 48
+        }
+    ]
+}

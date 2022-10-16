@@ -1,1 +1,39 @@
-{"entries":[{"name":"init","x":16,"y":16},{"name":"betaQuestCompleted","x":208,"y":16},{"name":"betaQuestCheckAccepted","x":16,"y":159},{"name":"betaQuestAccepted","x":208,"y":160},{"name":"betaQuestNotAccepted","x":15,"y":320},{"name":"betaQuestAccept","x":208,"y":288},{"name":"betaQuestReject","x":208,"y":383}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 16,
+            "y": 16
+        },
+        {
+            "name": "betaQuestCompleted",
+            "x": 208,
+            "y": 16
+        },
+        {
+            "name": "betaQuestCheckAccepted",
+            "x": 16,
+            "y": 159
+        },
+        {
+            "name": "betaQuestAccepted",
+            "x": 208,
+            "y": 160
+        },
+        {
+            "name": "betaQuestNotAccepted",
+            "x": 15,
+            "y": 320
+        },
+        {
+            "name": "betaQuestAccept",
+            "x": 208,
+            "y": 288
+        },
+        {
+            "name": "betaQuestReject",
+            "x": 208,
+            "y": 383
+        }
+    ]
+}

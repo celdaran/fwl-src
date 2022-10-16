@@ -1,1 +1,184 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::koldosTomb2,koldosTombCompleted,koldosTombCheckAccepted","children":[]},{"name":"koldosTombCompleted","text":"NPC says \"You've completed koldosTomb2 and you're all done.\"","response":"","function":"","children":[]},{"name":"koldosTombCheckAccepted","text":"","response":"","function":"moveOnAcceptedQuest::koldosTomb2,dedricsDoorCheckCompleted,koldosTombNotAccepted","children":[]},{"name":"dedricsDoorCheckCompleted","text":"","response":"","function":"moveOnCompleteQuest::dedricsDoor,dedricsDoorCompleted,dedricsDoorCheckAccepted","children":[]},{"name":"koldosTombNotAccepted","text":"Who disturbs my slumber?","response":"","function":"","children":[{"name":"itMe","text":"It is I, a weary explorer.","response":"Do I know you?","function":"","children":[{"name":"dontKnow","text":"I don't believe so.","response":"Then please leave.","function":"","children":[]},{"name":"doKnow","text":"You probably do.","response":"Lies! Leave at once!","function":"","children":[]}]}]},{"name":"dedricsDoorCompleted","text":"NPC says \"You've completed dedricsDoor but not koldosTomb2\"","response":"","function":"","children":[]},{"name":"dedricsDoorCheckAccepted","text":"","response":"","function":"moveOnAcceptedQuest::dedricsDoor,dedricsDoorAccepted,dedricsDoorNotAccepted","children":[]},{"name":"dedricsDoorAccepted","text":"What do you want!?","response":"","function":"","children":[{"name":"umm","text":"Ummm...","response":"Don't \"ummm\" me. Why are you here? Can you not see that I am busy, working here, in my office, down in the Catacombs. It's not weird.","function":"","children":[{"name":"explain","text":"I'm trying to help Dedric escape. He's locked in a dark room here and cannot free himself.","response":"Well of course he's locked in a room. I'm the one that did it.","function":"","children":[{"name":"why","text":"Why?","response":"Because he had it coming. He's in cahoots with that Guard out front, and I don't trust him neither.","function":"","children":[{"name":"helpAnyway","text":"Can you help anyway?","response":"Couldn't even if I wanted to. The spell cannot be undone by me. That's the best part of the spell.","function":"","children":[{"name":"canAnyone","text":"Can anyone help?","response":"Well . . . there's Gwenor.","function":"","children":[{"name":"whoIsGwenor","text":"Gwenor? Who is that?","response":"An Enchantress. But that complicates things. Let me think! [three minutes later] All right, tell you what. If you can answer this riddle correctly, I will help you get to Gwenor. If not, then you'll have to leave.","function":"","children":[{"name":"acceptRiddle","text":"All right, let's have it then.","response":"This thing all things devours; Birds, beasts, trees, flowers; Gnaws iron, bites steel; Grinds hard stones to meal; Slays king, ruins town, And beats high mountain down.","function":"","children":[{"name":"answer1","text":"You?","response":"I could do all these things, but I choose not too. Incorrect!","function":"","children":[]},{"name":"answer2","text":"Facebook?","response":"Heh... I should almost give you a pass for this one. Almost. Be gone!","function":"","children":[]},{"name":"answer3","text":"Time?","response":"Is that a question? Never mind. You are correct! You may see Gwennor now.","function":"raiseBridgeToGwenor","children":[]}]}]}]}]}]}]}]}]},{"name":"dedricsDoorNotAccepted","text":"Who disturbs my slumber?","response":"","function":"","children":[{"name":"itMe2","text":"It is I, a weary explorer.","response":"Wait, I think I know you. You're looking for that fabled sword!","function":"","children":[{"name":"thatMe","text":"Yes, that's me!","response":"You may go. I have no interest in such things.","function":"","children":[]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::koldosTomb2,koldosTombCompleted,koldosTombCheckAccepted",
+            "children": []
+        },
+        {
+            "name": "koldosTombCompleted",
+            "text": "NPC says \"You've completed koldosTomb2 and you're all done.\"",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "koldosTombCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::koldosTomb2,dedricsDoorCheckCompleted,koldosTombNotAccepted",
+            "children": []
+        },
+        {
+            "name": "dedricsDoorCheckCompleted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::dedricsDoor,dedricsDoorCompleted,dedricsDoorCheckAccepted",
+            "children": []
+        },
+        {
+            "name": "koldosTombNotAccepted",
+            "text": "Who disturbs my slumber?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "itMe",
+                    "text": "It is I, a weary explorer.",
+                    "response": "Do I know you?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "dontKnow",
+                            "text": "I don't believe so.",
+                            "response": "Then please leave.",
+                            "function": "",
+                            "children": []
+                        },
+                        {
+                            "name": "doKnow",
+                            "text": "You probably do.",
+                            "response": "Lies! Leave at once!",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dedricsDoorCompleted",
+            "text": "NPC says \"You've completed dedricsDoor but not koldosTomb2\"",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "dedricsDoorCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::dedricsDoor,dedricsDoorAccepted,dedricsDoorNotAccepted",
+            "children": []
+        },
+        {
+            "name": "dedricsDoorAccepted",
+            "text": "What do you want!?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "umm",
+                    "text": "Ummm...",
+                    "response": "Don't \"ummm\" me. Why are you here? Can you not see that I am busy, working here, in my office, down in the Catacombs. It's not weird.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "explain",
+                            "text": "I'm trying to help Dedric escape. He's locked in a dark room here and cannot free himself.",
+                            "response": "Well of course he's locked in a room. I'm the one that did it.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "why",
+                                    "text": "Why?",
+                                    "response": "Because he had it coming. He's in cahoots with that Guard out front, and I don't trust him neither.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "helpAnyway",
+                                            "text": "Can you help anyway?",
+                                            "response": "Couldn't even if I wanted to. The spell cannot be undone by me. That's the best part of the spell.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "canAnyone",
+                                                    "text": "Can anyone help?",
+                                                    "response": "Well . . . there's Gwenor.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "whoIsGwenor",
+                                                            "text": "Gwenor? Who is that?",
+                                                            "response": "An Enchantress. But that complicates things. Let me think! [three minutes later] All right, tell you what. If you can answer this riddle correctly, I will help you get to Gwenor. If not, then you'll have to leave.",
+                                                            "function": "",
+                                                            "children": [
+                                                                {
+                                                                    "name": "acceptRiddle",
+                                                                    "text": "All right, let's have it then.",
+                                                                    "response": "This thing all things devours; Birds, beasts, trees, flowers; Gnaws iron, bites steel; Grinds hard stones to meal; Slays king, ruins town, And beats high mountain down.",
+                                                                    "function": "",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "answer1",
+                                                                            "text": "You?",
+                                                                            "response": "I could do all these things, but I choose not too. Incorrect!",
+                                                                            "function": "",
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "name": "answer2",
+                                                                            "text": "Facebook?",
+                                                                            "response": "Heh... I should almost give you a pass for this one. Almost. Be gone!",
+                                                                            "function": "",
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "name": "answer3",
+                                                                            "text": "Time?",
+                                                                            "response": "Is that a question? Never mind. You are correct! You may see Gwennor now.",
+                                                                            "function": "raiseBridgeToGwenor",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dedricsDoorNotAccepted",
+            "text": "Who disturbs my slumber?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "itMe2",
+                    "text": "It is I, a weary explorer.",
+                    "response": "Wait, I think I know you. You're looking for that fabled sword!",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "thatMe",
+                            "text": "Yes, that's me!",
+                            "response": "You may go. I have no interest in such things.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

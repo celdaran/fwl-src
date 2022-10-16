@@ -1,1 +1,73 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::lapisLazuli,hello,stranger","children":[]},{"name":"hello","text":"Hello","response":"","function":"","children":[{"name":"intro","text":"Are you Mari?","response":"I am.","function":"","children":[{"name":"zeddSentMe","text":"Zedd sent me. Something about this gold ingot I have?","response":"Oh, that. It sounds like he wants you to head to the abandoned mines.","function":"","children":[{"name":"abandonedMines","text":"Abandoned mines?","response":"Well, that's what everyone ELSE calls them. The mines were in my family for decades, until we just couldn't keep them up anymore. Thought about selling, but no one was buying.","function":"","children":[{"name":"sorry","text":"I'm sorry to hear that. Do you know why Zedd would send me this way?","response":"Zedd likes to say things. But you're welcome to head down there anyway. I doubt there's anything left. What we didn't retrieve on our own has likely long since been looted by theives.","function":"","children":[{"name":"where","text":"Which way?","response":"Just north of here. You can't miss it.","function":"","children":[{"name":"thanks","text":"Thank you.","response":"Any time.","function":"","children":[]}]}]}]}]}]}]},{"name":"stranger","text":"Hello, traveller. If you're weary, I would recommend some R&R up at Old Zedd's.","response":"","function":"","children":[]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::lapisLazuli,hello,stranger",
+            "children": []
+        },
+        {
+            "name": "hello",
+            "text": "Hello",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "intro",
+                    "text": "Are you Mari?",
+                    "response": "I am.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "zeddSentMe",
+                            "text": "Zedd sent me. Something about this gold ingot I have?",
+                            "response": "Oh, that. It sounds like he wants you to head to the abandoned mines.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "abandonedMines",
+                                    "text": "Abandoned mines?",
+                                    "response": "Well, that's what everyone ELSE calls them. The mines were in my family for decades, until we just couldn't keep them up anymore. Thought about selling, but no one was buying.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "sorry",
+                                            "text": "I'm sorry to hear that. Do you know why Zedd would send me this way?",
+                                            "response": "Zedd likes to say things. But you're welcome to head down there anyway. I doubt there's anything left. What we didn't retrieve on our own has likely long since been looted by theives.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "where",
+                                                    "text": "Which way?",
+                                                    "response": "Just north of here. You can't miss it.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "thanks",
+                                                            "text": "Thank you.",
+                                                            "response": "Any time.",
+                                                            "function": "",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "stranger",
+            "text": "Hello, traveller. If you're weary, I would recommend some R&R up at Old Zedd's.",
+            "response": "",
+            "function": "",
+            "children": []
+        }
+    ]
+}

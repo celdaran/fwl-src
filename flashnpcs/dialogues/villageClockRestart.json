@@ -1,1 +1,11 @@
-{"entries":[{"name":"init","text":"","response":"","function":"acceptQuest::koldosTomb2","children":[]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "acceptQuest::koldosTomb2",
+            "children": []
+        }
+    ]
+}

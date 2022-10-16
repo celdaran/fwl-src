@@ -1,1 +1,27 @@
-{"entries":[{"name":"init","text":"Hi","response":"","function":"","children":[{"name":"hello","text":"Your names are Clark? And Darla?","response":"Yeah.","function":"","children":[{"name":"omg","text":"Oh my god, that's so cute! I just wanna eat you both up! Rawrrarrarrarrarrr!","response":". . .","function":"","children":[]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "Hi",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Your names are Clark? And Darla?",
+                    "response": "Yeah.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "omg",
+                            "text": "Oh my god, that's so cute! I just wanna eat you both up! Rawrrarrarrarrarrr!",
+                            "response": ". . .",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

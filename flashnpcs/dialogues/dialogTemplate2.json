@@ -1,1 +1,54 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::betaQuest,betaQuestCompleted,betaQuestCheckAccepted","children":[]},{"name":"betaQuestCompleted","text":"NPC says: you have completed betaQuest","response":"","function":"","children":[]},{"name":"betaQuestCheckAccepted","text":"","response":"","function":"moveOnAcceptedQuest::betaQuest,betaQuestAccepted,betaQuestNotAccepted","children":[]},{"name":"betaQuestAccepted","text":"NPC says: \"You've accepted but not completed betaQuest\"","response":"","function":"","children":[]},{"name":"betaQuestNotAccepted","text":"NPC says: \"You've not accepted betaQuest\"","response":"","function":"","children":[{"name":"betaQuestAccept","text":"I accept betaQuest","response":"Good luck on betaQuest","function":"acceptQuest::betaQuest","children":[]},{"name":"betaQuestReject","text":"I reject betaQuest","response":"Sorry about that","function":"","children":[]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::betaQuest,betaQuestCompleted,betaQuestCheckAccepted",
+            "children": []
+        },
+        {
+            "name": "betaQuestCompleted",
+            "text": "NPC says: you have completed betaQuest",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "betaQuestCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::betaQuest,betaQuestAccepted,betaQuestNotAccepted",
+            "children": []
+        },
+        {
+            "name": "betaQuestAccepted",
+            "text": "NPC says: \"You've accepted but not completed betaQuest\"",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "betaQuestNotAccepted",
+            "text": "NPC says: \"You've not accepted betaQuest\"",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "betaQuestAccept",
+                    "text": "I accept betaQuest",
+                    "response": "Good luck on betaQuest",
+                    "function": "acceptQuest::betaQuest",
+                    "children": []
+                },
+                {
+                    "name": "betaQuestReject",
+                    "text": "I reject betaQuest",
+                    "response": "Sorry about that",
+                    "function": "",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

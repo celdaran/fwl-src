@@ -1,1 +1,114 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"hello","x":235,"y":14},{"name":"helloBack1","x":423,"y":15},{"name":"clockInquiry","x":597,"y":0},{"name":"costumeReply","x":763,"y":0},{"name":"costumeCompleted","x":236,"y":124},{"name":"checkCostumeAccepted","x":16,"y":127},{"name":"checkHanaCompleted","x":17,"y":314},{"name":"hanaCompleted","x":206,"y":464},{"name":"helloBack2","x":442,"y":461},{"name":"didYaThough","x":627,"y":486},{"name":"talkedToAlan","x":807,"y":471},{"name":"targetNode","x":1003,"y":492},{"name":"checkHanaAccepted","x":20,"y":455},{"name":"hanaAccepted","x":205,"y":569},{"name":"start","x":201,"y":713},{"name":"placeholder","x":426,"y":699},{"name":"didYou","x":613,"y":711},{"name":"talkingToAlan","x":795,"y":721},{"name":"costumeNotAccepted","x":232,"y":254},{"name":"helloBack3","x":423,"y":264},{"name":"clockDesc","x":629,"y":263}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "hello",
+            "x": 235,
+            "y": 14
+        },
+        {
+            "name": "helloBack1",
+            "x": 423,
+            "y": 15
+        },
+        {
+            "name": "clockInquiry",
+            "x": 597,
+            "y": 0
+        },
+        {
+            "name": "costumeReply",
+            "x": 763,
+            "y": 0
+        },
+        {
+            "name": "costumeCompleted",
+            "x": 236,
+            "y": 124
+        },
+        {
+            "name": "checkCostumeAccepted",
+            "x": 16,
+            "y": 127
+        },
+        {
+            "name": "checkHanaCompleted",
+            "x": 17,
+            "y": 314
+        },
+        {
+            "name": "hanaCompleted",
+            "x": 206,
+            "y": 464
+        },
+        {
+            "name": "helloBack2",
+            "x": 442,
+            "y": 461
+        },
+        {
+            "name": "didYaThough",
+            "x": 627,
+            "y": 486
+        },
+        {
+            "name": "talkedToAlan",
+            "x": 807,
+            "y": 471
+        },
+        {
+            "name": "targetNode",
+            "x": 1003,
+            "y": 492
+        },
+        {
+            "name": "checkHanaAccepted",
+            "x": 20,
+            "y": 455
+        },
+        {
+            "name": "hanaAccepted",
+            "x": 205,
+            "y": 569
+        },
+        {
+            "name": "start",
+            "x": 201,
+            "y": 713
+        },
+        {
+            "name": "placeholder",
+            "x": 426,
+            "y": 699
+        },
+        {
+            "name": "didYou",
+            "x": 613,
+            "y": 711
+        },
+        {
+            "name": "talkingToAlan",
+            "x": 795,
+            "y": 721
+        },
+        {
+            "name": "costumeNotAccepted",
+            "x": 232,
+            "y": 254
+        },
+        {
+            "name": "helloBack3",
+            "x": 423,
+            "y": 264
+        },
+        {
+            "name": "clockDesc",
+            "x": 629,
+            "y": 263
+        }
+    ]
+}

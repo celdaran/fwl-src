@@ -1,1 +1,42 @@
-{"entries":[{"name":"init","text":"'Sup","response":"","function":"","children":[{"name":"hello","text":"Hello, how are you?","response":"It's all good. Just chillin'","function":"","children":[]},{"name":"directions","text":"Do you know where a mine shaft entrance might be?","response":"Yep. Used to work there. Come to think of it, I might still work there.","function":"","children":[{"name":"where","text":"Well, where is it?","response":"Just cross that little bridge down there, turn left, and head for the well.","function":"","children":[{"name":"thanks","text":"Thanks!","response":"No probalo","function":"","children":[]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "'Sup",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hello",
+                    "text": "Hello, how are you?",
+                    "response": "It's all good. Just chillin'",
+                    "function": "",
+                    "children": []
+                },
+                {
+                    "name": "directions",
+                    "text": "Do you know where a mine shaft entrance might be?",
+                    "response": "Yep. Used to work there. Come to think of it, I might still work there.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "where",
+                            "text": "Well, where is it?",
+                            "response": "Just cross that little bridge down there, turn left, and head for the well.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "thanks",
+                                    "text": "Thanks!",
+                                    "response": "No probalo",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

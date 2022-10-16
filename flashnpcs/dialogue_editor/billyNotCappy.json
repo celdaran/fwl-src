@@ -1,1 +1,29 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"hello","x":182,"y":14},{"name":"seriously","x":354,"y":31},{"name":"likeCappy","x":529,"y":41},{"name":"nvm","x":718,"y":49}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "hello",
+            "x": 182,
+            "y": 14
+        },
+        {
+            "name": "seriously",
+            "x": 354,
+            "y": 31
+        },
+        {
+            "name": "likeCappy",
+            "x": 529,
+            "y": 41
+        },
+        {
+            "name": "nvm",
+            "x": 718,
+            "y": 49
+        }
+    ]
+}

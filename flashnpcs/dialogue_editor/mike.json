@@ -1,1 +1,49 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"notStarted","x":202,"y":39},{"name":"helpYou","x":369,"y":30},{"name":"nerve","x":554,"y":46},{"name":"offer","x":729,"y":54},{"name":"offer2","x":902,"y":69},{"name":"completed","x":40,"y":127},{"name":"checkAccept","x":39,"y":193},{"name":"accepted","x":202,"y":125}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "notStarted",
+            "x": 202,
+            "y": 39
+        },
+        {
+            "name": "helpYou",
+            "x": 369,
+            "y": 30
+        },
+        {
+            "name": "nerve",
+            "x": 554,
+            "y": 46
+        },
+        {
+            "name": "offer",
+            "x": 729,
+            "y": 54
+        },
+        {
+            "name": "offer2",
+            "x": 902,
+            "y": 69
+        },
+        {
+            "name": "completed",
+            "x": 40,
+            "y": 127
+        },
+        {
+            "name": "checkAccept",
+            "x": 39,
+            "y": 193
+        },
+        {
+            "name": "accepted",
+            "x": 202,
+            "y": 125
+        }
+    ]
+}

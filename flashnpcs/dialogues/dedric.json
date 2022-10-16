@@ -1,1 +1,238 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::koldosTomb2,koldosTombCompleted,koldosTombCheckAccepted","children":[]},{"name":"koldosTombCompleted","text":"NPC says \"You've completed koldosTomb2 and you're all done.\"","response":"","function":"","children":[]},{"name":"koldosTombCheckAccepted","text":"","response":"","function":"moveOnAcceptedQuest::koldosTomb2,dedricsDoorCheckCompleted,koldosTombNotAccepted","children":[]},{"name":"dedricsDoorCheckCompleted","text":"","response":"","function":"moveOnCompleteQuest::dedricsDoor,dedricsDoorCompleted,dedricsDoorCheckAccepted","children":[]},{"name":"koldosTombNotAccepted","text":"What are you doing down here?","response":"","function":"","children":[{"name":"imLost","text":"I'm lost?","response":"How did you get down here? How did you get past the Guard out front?","function":"","children":[{"name":"justWalked","text":"Wasn't hard. I just walked right past him.","response":"You shouldn't be down here. Did you talk to him? Like, FULLY talk to him?","function":"","children":[{"name":"howDoYouMean","text":"How do you mean?","response":"You can't be down here without talking to him. Go now. Just go.","function":"","children":[]}]}]}]},{"name":"dedricsDoorCompleted","text":"Thank you, thank you! I can't thank you enough for setting me free.","response":"","function":"","children":[{"name":"attitude","text":"Well not with that attitude.","response":"Look who's talking about attitude!","function":"","children":[{"name":"justAJoke","text":"Hey! It was just a joke.","response":"Oh. Okay. I get it. hahaha.","function":"","children":[]}]},{"name":"tryHarder","text":"Try harder.","response":"Excuse me?","function":"","children":[{"name":"justAJoke2","text":"Hey! It was just a joke.","response":"Ah. Makes sense. Hahaha! Haha. Ha.","function":"","children":[]}]},{"name":"thatsOkay","text":"That's okay, it was nothing.","response":"Really, I'd like to repay you.","function":"","children":[{"name":"repayHow","text":"Repay me? How?","response":"Well, what's on your mind right now. I might be able to help.","function":"","children":[{"name":"koldosTomb2","text":"There is something. It's Koldo's Tomb. Do you know anything about it? I've been all over this place and seen a lot of coffins and stuff. But no Koldo.","response":"Ah, you seek a legend! I don't know if I can help with that.","function":"","children":[{"name":"afraidOfThat","text":"I was afraid of that. I'll just...","response":"But I might know someone who can!","function":"","children":[{"name":"who","text":"Oh, and who might that be?","response":"The greatest wizard in all of northwestern europe, including the British Isles. Dumbledore!","function":"","children":[{"name":"dumbledore","text":"Wow! He's here?","response":"Yes. He usually hangs out deep, deep within the catacombs. I'll send word ahead to have the door unlocked. Good luck!","function":"openDumbleDoor","children":[]}]}]}]}]}]}]},{"name":"dedricsDoorCheckAccepted","text":"","response":"","function":"moveOnAcceptedQuest::dedricsDoor,doorAccepted,doorNotAccepted","children":[]},{"name":"doorAccepted","text":"","response":"","function":"moveOnAcceptedQuest::whitheredSkullOfDoom,skullAccepted,skullNotAccepted","children":[]},{"name":"doorNotAccepted","text":"Who are you?","response":"","function":"","children":[{"name":"aWanderer","text":"I'm a wanderer.","response":"Can . . . can you help people?","function":"","children":[{"name":"possibly","text":"Possibly. What do you need?","response":"Freedom.","function":"","children":[{"name":"freedomReply","text":"Freedom? Are you stuck here?","response":"I am. I wandered in, looking for treasure, and now I'm stuck.","function":"","children":[{"name":"stuck","text":"Stuck? Can't you just walk out the door?","response":"Gosh! Walk out the door? I never thought of THAT one! Of course, I can't walk out the door. Open or closed, there's some force that holds me here. I hope it hasn't affected you too.","function":"","children":[{"name":"stuckConfirm","text":"What can I do?","response":"Remove it. Get rid of the door. However possible. Then I might escape. Will you help me?","function":"","children":[{"name":"acceptQuest","text":"I'll do it. No one should be trapped down here.","response":"Thank you!","function":"acceptQuest::dedricsDoor","children":[]},{"name":"rejectQuest","text":"I'm sorry but I have no clue how I might do that. But good luck, I'm sure someone else will be along soon.","response":"","function":"","children":[]}]}]}]}]}]}]},{"name":"skullAccepted","text":"You are making good progress. I do believe Gwenor can help us!","response":"","function":"","children":[]},{"name":"skullNotAccepted","text":"Am I free yet? Have you gone for help?","response":"","function":"","children":[]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::koldosTomb2,koldosTombCompleted,koldosTombCheckAccepted",
+            "children": []
+        },
+        {
+            "name": "koldosTombCompleted",
+            "text": "NPC says \"You've completed koldosTomb2 and you're all done.\"",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "koldosTombCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::koldosTomb2,dedricsDoorCheckCompleted,koldosTombNotAccepted",
+            "children": []
+        },
+        {
+            "name": "dedricsDoorCheckCompleted",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::dedricsDoor,dedricsDoorCompleted,dedricsDoorCheckAccepted",
+            "children": []
+        },
+        {
+            "name": "koldosTombNotAccepted",
+            "text": "What are you doing down here?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "imLost",
+                    "text": "I'm lost?",
+                    "response": "How did you get down here? How did you get past the Guard out front?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "justWalked",
+                            "text": "Wasn't hard. I just walked right past him.",
+                            "response": "You shouldn't be down here. Did you talk to him? Like, FULLY talk to him?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "howDoYouMean",
+                                    "text": "How do you mean?",
+                                    "response": "You can't be down here without talking to him. Go now. Just go.",
+                                    "function": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dedricsDoorCompleted",
+            "text": "Thank you, thank you! I can't thank you enough for setting me free.",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "attitude",
+                    "text": "Well not with that attitude.",
+                    "response": "Look who's talking about attitude!",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "justAJoke",
+                            "text": "Hey! It was just a joke.",
+                            "response": "Oh. Okay. I get it. hahaha.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "tryHarder",
+                    "text": "Try harder.",
+                    "response": "Excuse me?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "justAJoke2",
+                            "text": "Hey! It was just a joke.",
+                            "response": "Ah. Makes sense. Hahaha! Haha. Ha.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "thatsOkay",
+                    "text": "That's okay, it was nothing.",
+                    "response": "Really, I'd like to repay you.",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "repayHow",
+                            "text": "Repay me? How?",
+                            "response": "Well, what's on your mind right now. I might be able to help.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "koldosTomb2",
+                                    "text": "There is something. It's Koldo's Tomb. Do you know anything about it? I've been all over this place and seen a lot of coffins and stuff. But no Koldo.",
+                                    "response": "Ah, you seek a legend! I don't know if I can help with that.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "afraidOfThat",
+                                            "text": "I was afraid of that. I'll just...",
+                                            "response": "But I might know someone who can!",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "who",
+                                                    "text": "Oh, and who might that be?",
+                                                    "response": "The greatest wizard in all of northwestern europe, including the British Isles. Dumbledore!",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "dumbledore",
+                                                            "text": "Wow! He's here?",
+                                                            "response": "Yes. He usually hangs out deep, deep within the catacombs. I'll send word ahead to have the door unlocked. Good luck!",
+                                                            "function": "openDumbleDoor",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dedricsDoorCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::dedricsDoor,doorAccepted,doorNotAccepted",
+            "children": []
+        },
+        {
+            "name": "doorAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::witheredSkullOfDoom,skullAccepted,skullNotAccepted",
+            "children": []
+        },
+        {
+            "name": "doorNotAccepted",
+            "text": "Who are you?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "aWanderer",
+                    "text": "I'm a wanderer.",
+                    "response": "Can . . . can you help people?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "possibly",
+                            "text": "Possibly. What do you need?",
+                            "response": "Freedom.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "freedomReply",
+                                    "text": "Freedom? Are you stuck here?",
+                                    "response": "I am. I wandered in, looking for treasure, and now I'm stuck.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "stuck",
+                                            "text": "Stuck? Can't you just walk out the door?",
+                                            "response": "Gosh! Walk out the door? I never thought of THAT one! Of course, I can't walk out the door. Open or closed, there's some force that holds me here. I hope it hasn't affected you too.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "stuckConfirm",
+                                                    "text": "What can I do?",
+                                                    "response": "Remove it. Get rid of the door. However possible. Then I might escape. Will you help me?",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "acceptQuest",
+                                                            "text": "I'll do it. No one should be trapped down here.",
+                                                            "response": "Thank you!",
+                                                            "function": "acceptQuest::dedricsDoor",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "rejectQuest",
+                                                            "text": "I'm sorry but I have no clue how I might do that. But good luck, I'm sure someone else will be along soon.",
+                                                            "response": "",
+                                                            "function": "",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "skullAccepted",
+            "text": "You are making good progress. I do believe Gwenor can help us!",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "skullNotAccepted",
+            "text": "Am I free yet? Have you gone for help?",
+            "response": "",
+            "function": "",
+            "children": []
+        }
+    ]
+}

@@ -1,1 +1,39 @@
-{"entries":[{"name":"init","x":10,"y":10},{"name":"completed","x":200,"y":10},{"name":"checkAccepted","x":14,"y":111},{"name":"notAccepted","x":15,"y":208},{"name":"accepted","x":221,"y":110},{"name":"yes","x":234,"y":212},{"name":"no","x":234,"y":310}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "completed",
+            "x": 200,
+            "y": 10
+        },
+        {
+            "name": "checkAccepted",
+            "x": 14,
+            "y": 111
+        },
+        {
+            "name": "notAccepted",
+            "x": 15,
+            "y": 208
+        },
+        {
+            "name": "accepted",
+            "x": 221,
+            "y": 110
+        },
+        {
+            "name": "yes",
+            "x": 234,
+            "y": 212
+        },
+        {
+            "name": "no",
+            "x": 234,
+            "y": 310
+        }
+    ]
+}

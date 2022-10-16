@@ -1,1 +1,157 @@
-{"entries":[{"name":"init","text":"","response":"","function":"moveOnCompleteQuest::flamelsDust,dustCompleted,checkDustAccepted","children":[]},{"name":"dustCompleted","text":"I am pleased to have The Dust of the Philosopher's Stone back in my possession. I thank you for your service. Now, you were interested in Koldo's Tomb?","response":"","function":"","children":[{"name":"veryMuch","text":"Very much!","response":"Very well, then. Let me get my Kwikspell Book here. [flips through book for a minute.]","function":"","children":[{"name":"findIt","text":"Find it?","response":"Hold your horses.","function":"","children":[{"name":"now","text":"Now?","response":"Yes! I have it. Here goes. [clears throat] \"Abracadabra!\"","function":"openKoldosTomb","children":[{"name":"didItWork","text":"Did it work?","response":"Yes, I do believe so. Koldo's Tomb is unlocked.","function":"","children":[{"name":"where","text":"But where is it? I've looked everywhere.","response":"It's up there. Back that way. You'll see.","function":"","children":[]}]}]}]}]}]},{"name":"checkDustAccepted","text":"","response":"","function":"moveOnAcceptedQuest::flamelsDust,dustAccepted,dustNotAccepted","children":[]},{"name":"dustAccepted","text":"You found my dust yet? No? Then no need to stick around here.","response":"","function":"","children":[]},{"name":"dustNotAccepted","text":"Hail, @p","response":"","function":"","children":[{"name":"hailBack","text":"Wow. It's really you, @npc.","response":"Welcome to one of my many summer dungeons. May I ask what brings you here?","function":"","children":[{"name":"koldosTomb2","text":"Koldo's Tomb!","response":"Ahhh, I should have known. I suppose you want my help. Did Dedric send you?","function":"","children":[{"name":"iDoHeDid","text":"I do. He did.","response":"I can help. But of course, quid pro quo, you're expected to take certain duties on board.","function":"","children":[{"name":"expectedNoLess","text":"I expected no less. What did you have in mind.","response":"I assume you're familiar with the Philosopher's Stone?","function":"","children":[{"name":"sorcersStone","text":"You mean the Sorcerer's Stone?","response":"I mean the Philosopher's Stone!! Bloody Americans. They mess up everything. Anyway, as you might have heard, it was destroyed back in 1992. However, \"destroyed\" is relative. We actually had it crushed into dust.","function":"","children":[{"name":"neverKnew","text":"I never knew that!","response":"\"Of course you didn't!!!\" Dumbledore said calmly. Anyway, that dust still has powerful magical potential and I'd like it back. Go find it. It's around here somewhere.","function":"","children":[{"name":"accept","text":"I'll do it!","response":"Thank you. Just head out that way, into the dark, dark abyss. And don't die.","function":"acceptQuest::flamelsDust","children":[]},{"name":"reject","text":"I don't know. This whole this is already taking too long.","response":"You sure? Might be worth your while.","function":"","children":[{"name":"accept2","text":"New Node","response":"","function":"acceptQuest::flamelsDust","children":[]},{"name":"reject2","text":"New Node","response":"","function":"","children":[]}]}]}]}]}]}]}]}]}]}
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::flamelsDust,dustCompleted,checkDustAccepted",
+            "children": []
+        },
+        {
+            "name": "dustCompleted",
+            "text": "I am pleased to have The Dust of the Philosopher's Stone back in my possession. I thank you for your service. Now, you were interested in Koldo's Tomb?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "veryMuch",
+                    "text": "Very much!",
+                    "response": "Very well, then. Let me get my Kwikspell Book here. [flips through book for a minute.]",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "findIt",
+                            "text": "Find it?",
+                            "response": "Hold your horses.",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "now",
+                                    "text": "Now?",
+                                    "response": "Yes! I have it. Here goes. [clears throat] \"Abracadabra!\"",
+                                    "function": "openKoldosTomb",
+                                    "children": [
+                                        {
+                                            "name": "didItWork",
+                                            "text": "Did it work?",
+                                            "response": "Yes, I do believe so. Koldo's Tomb is unlocked.",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "where",
+                                                    "text": "But where is it? I've looked everywhere.",
+                                                    "response": "It's up there. Back that way. You'll see.",
+                                                    "function": "",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "checkDustAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::flamelsDust,dustAccepted,dustNotAccepted",
+            "children": []
+        },
+        {
+            "name": "dustAccepted",
+            "text": "You found my dust yet? No? Then no need to stick around here.",
+            "response": "",
+            "function": "",
+            "children": []
+        },
+        {
+            "name": "dustNotAccepted",
+            "text": "Hail, @p",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "hailBack",
+                    "text": "Wow. It's really you, @npc.",
+                    "response": "Welcome to one of my many summer dungeons. May I ask what brings you here?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "koldosTomb2",
+                            "text": "Koldo's Tomb!",
+                            "response": "Ahhh, I should have known. I suppose you want my help. Did Dedric send you?",
+                            "function": "",
+                            "children": [
+                                {
+                                    "name": "iDoHeDid",
+                                    "text": "I do. He did.",
+                                    "response": "I can help. But of course, quid pro quo, you're expected to take certain duties on board.",
+                                    "function": "",
+                                    "children": [
+                                        {
+                                            "name": "expectedNoLess",
+                                            "text": "I expected no less. What did you have in mind.",
+                                            "response": "I assume you're familiar with the Philosopher's Stone?",
+                                            "function": "",
+                                            "children": [
+                                                {
+                                                    "name": "sorcersStone",
+                                                    "text": "You mean the Sorcerer's Stone?",
+                                                    "response": "I mean the Philosopher's Stone!! Bloody Americans. They mess up everything. Anyway, as you might have heard, it was destroyed back in 1992. However, \"destroyed\" is relative. We actually had it crushed into dust.",
+                                                    "function": "",
+                                                    "children": [
+                                                        {
+                                                            "name": "neverKnew",
+                                                            "text": "I never knew that!",
+                                                            "response": "\"Of course you didn't!!!\" Dumbledore said calmly. Anyway, that dust still has powerful magical potential and I'd like it back. Go find it. It's around here somewhere.",
+                                                            "function": "",
+                                                            "children": [
+                                                                {
+                                                                    "name": "accept",
+                                                                    "text": "I'll do it!",
+                                                                    "response": "Thank you. Just head out that way, into the dark, dark abyss. And don't die.",
+                                                                    "function": "acceptQuest::flamelsDust",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "name": "reject",
+                                                                    "text": "I don't know. This whole this is already taking too long.",
+                                                                    "response": "You sure? Might be worth your while.",
+                                                                    "function": "",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "accept2",
+                                                                            "text": "New Node",
+                                                                            "response": "",
+                                                                            "function": "acceptQuest::flamelsDust",
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "name": "reject2",
+                                                                            "text": "New Node",
+                                                                            "response": "",
+                                                                            "function": "",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
