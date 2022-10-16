@@ -53,7 +53,7 @@ summon minecraft:item_frame -3110 11 3204 {Facing:1b,Item:{id:"minecraft:iron_sh
 data merge entity @e[tag=jepsons_shovel,limit=1] {Invisible:1b}
 
 # Item: Lapis Lazuli of Light
-#   key: give @p minecraft:lapis_lazuli{display:{Name:'{"text":"Lapis Lazuli of Light","italic":"true"}'}}
+#   key: give @p minecraft:paper{display:{Name:'{"text":"Lapis Lazuli Chest Key","italic":"true"}'}}
 setblock -3263 -13 3192 minecraft:air
 setblock -3263 -13 3192 minecraft:trapped_chest[facing=east]{CustomName:'{"text":"Quest Chest"}',Items:[{Slot:0b,id:"minecraft:lapis_lazuli",Count:1b,tag:{display:{Name:'{"text":"Lapis Lazuli of Light","italic":true}'}}},{Slot:1b,id:"minecraft:wooden_pickaxe",Count:1b},{Slot:2b,id:"minecraft:soul_lantern",Count:1b}],Lock:"Lapis Lazuli Chest Key"} replace
 
