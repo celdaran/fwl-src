@@ -4,7 +4,7 @@
             "name": "init",
             "text": "",
             "response": "",
-            "function": "moveOnCompleteQuest::whitheredSkullOfDoom2,questCompleted,checkAccepted",
+            "function": "moveOnCompleteQuest::witheredSkullOfDoom2,questCompleted,checkAccepted",
             "children": []
         },
         {
@@ -42,7 +42,7 @@
             "name": "checkAccepted",
             "text": "",
             "response": "",
-            "function": "moveOnAcceptedQuest::whitheredSkullOfDoom2,questAccepted,notAccepted",
+            "function": "moveOnAcceptedQuest::witheredSkullOfDoom,questAccepted,notAccepted",
             "children": []
         },
         {
@@ -59,7 +59,7 @@
                     "children": [
                         {
                             "name": "tryingToFind",
-                            "text": "Trying to find a Whithered Skull of Doom.",
+                            "text": "Trying to find a Withered Skull of Doom.",
                             "response": "Oooo. Are you sure?",
                             "function": "",
                             "children": [

@@ -69,13 +69,13 @@
                                                     "name": "accept",
                                                     "text": "I accept",
                                                     "response": "And I can count on you?",
-                                                    "function": "acceptQuest::whitheredSkullOfDoom2",
+                                                    "function": "acceptQuest::witheredSkullOfDoom",
                                                     "children": [
                                                         {
                                                             "name": "ofCourse",
                                                             "text": "Of course!",
                                                             "response": "May the Great Ones guide you.",
-                                                            "function": "unlockChestTest",
+                                                            "function": "",
                                                             "children": []
                                                         }
                                                     ]
@@ -108,7 +108,7 @@
             "name": "skullCheckCompleted",
             "text": "",
             "response": "",
-            "function": "moveOnCompleteQuest::whitheredSkullOfDoom2,skullCompleted,checkSkullAccepted",
+            "function": "moveOnCompleteQuest::witheredSkullOfDoom,skullCompleted,checkSkullAccepted",
             "children": []
         },
         {
