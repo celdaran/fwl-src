@@ -171,8 +171,17 @@ setblock -2690 82 2768 minecraft:air
 setblock -2691 82 2768 minecraft:air
 setblock -2692 82 2768 minecraft:air
 
+# Item: Key to Osanna's Chest
+setblock -2682 82 2771 minecraft:air
+setblock -2682 82 2771 minecraft:trapped_chest[facing=north,type=single]{CustomName:'{"text":"Zanna\'s Stuff","color":"dark_blue","italic":true}',Items:[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Osanna\'s Chest Key","italic":true}'}}}]} replace
+
 # Item: Withered Skull of Doom
-setblock -2655 76 2762 minecraft:trapped_chest[facing=west,type=single]{Lock:"",CustomName:'{"text":"Osanna\'s Stuff","color":"dark_blue","italic":true}',Items:[{Slot:0b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{display:{Name:'{"text":"Withered Skull of Doom","italic":true}'}}}]} replace
+setblock -2655 76 2762 minecraft:air
+setblock -2655 76 2762 minecraft:trapped_chest[facing=west,type=single]{Lock:"Osanna's Chest Key",CustomName:'{"text":"Osanna\'s Stuff","color":"dark_blue","italic":true}',Items:[{Slot:0b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{display:{Name:'{"text":"Withered Skull of Doom","italic":true}'}}}]} replace
+
+# Geography: Osann's Key Wall
+setblock -2682 83 2770 minecraft:mossy_stone_bricks
+setblock -2682 82 2770 minecraft:mossy_stone_bricks
 
 # Geography: Replace Koldo's Wall
 setblock -2647 65 2731 minecraft:mossy_stone_bricks
