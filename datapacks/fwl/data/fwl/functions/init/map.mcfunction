@@ -177,6 +177,7 @@ setblock -2682 82 2771 minecraft:air
 setblock -2682 82 2771 minecraft:trapped_chest[facing=north,type=single]{CustomName:'{"text":"Zanna\'s Stuff","color":"dark_blue","italic":true}',Items:[{Slot:0b,id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Osanna\'s Chest Key","italic":true}'}}}]} replace
 
 # Item: Withered Skull of Doom
+#   key: give @p minecraft:wither_skeleton_skull{display:{Name:'{"text":"Withered Skull of Doom","italic":"true"}'}}
 setblock -2655 76 2762 minecraft:air
 setblock -2655 76 2762 minecraft:trapped_chest[facing=west,type=single]{Lock:"Osanna's Chest Key",CustomName:'{"text":"Osanna\'s Stuff","color":"dark_blue","italic":true}',Items:[{Slot:0b,id:"minecraft:wither_skeleton_skull",Count:1b,tag:{display:{Name:'{"text":"Withered Skull of Doom","italic":true}'}}}]} replace
 
