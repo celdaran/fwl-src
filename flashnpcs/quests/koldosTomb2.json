@@ -7,7 +7,7 @@
             "name": "Blade",
             "type": 0,
             "amount": 1,
-            "primaryObjective": "minecraft:golden_sword{Damage:0,display:{Name:'{\"text\":\"Golden Blade of Whatever\",\"italic\":\"true\"}'}}"
+            "primaryObjective": "minecraft:golden_sword{Damage:0,display:{Name:'{\"text\":\"Golden Blade of Whatever\",\"color\":\"yellow\",\"italic\":\"true\"}'}}"
         }
     ],
     "xpReward": 2,

@@ -157,6 +157,7 @@ setblock -2325 126 2904 minecraft:trapped_chest[facing=east,type=single]{Items:[
 #-----------------------------------------------------------------------
 
 # Item: Golden Blade of Whatever
+# give @p minecraft:golden_sword{display:{Name:'{"text":"Golden Blade of Whatever","color":"yellow","italic":"true"}'}}
 setblock -2644 65 2728 minecraft:air
 setblock -2644 65 2728 minecraft:chest[facing=west]{CustomName:'{"text":"Koldo\'s Stuff","color":"dark_blue","italic":true}',Items:[{Slot:0b,id:"minecraft:golden_sword",Count:1b,tag:{display:{Name:'{"text":"Golden Blade of Whatever","color":"yellow","italic":true}'}}}]} replace
 
