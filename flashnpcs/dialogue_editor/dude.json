@@ -1,0 +1,39 @@
+{
+    "entries": [
+        {
+            "name": "init",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "name": "dedricsDoorCompleted",
+            "x": 212,
+            "y": 16
+        },
+        {
+            "name": "loveTo",
+            "x": 373,
+            "y": 15
+        },
+        {
+            "name": "neverMind",
+            "x": 534,
+            "y": 19
+        },
+        {
+            "name": "dedricsDoorCheckAccepted",
+            "x": 14,
+            "y": 125
+        },
+        {
+            "name": "dedricsDoorAccepted",
+            "x": 200,
+            "y": 130
+        },
+        {
+            "name": "start",
+            "x": 13,
+            "y": 245
+        }
+    ]
+}

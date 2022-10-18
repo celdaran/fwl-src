@@ -1,0 +1,55 @@
+{
+    "entries": [
+        {
+            "name": "init",
+            "text": "",
+            "response": "",
+            "function": "moveOnCompleteQuest::dedricsDoor,dedricsDoorCompleted,dedricsDoorCheckAccepted",
+            "children": []
+        },
+        {
+            "name": "dedricsDoorCompleted",
+            "text": "Shall we play a game?",
+            "response": "",
+            "function": "",
+            "children": [
+                {
+                    "name": "loveTo",
+                    "text": "Love to. How about Global Thermonuclear War?",
+                    "response": "Wouldn't you prefer a good game of chess?",
+                    "function": "",
+                    "children": [
+                        {
+                            "name": "neverMind",
+                            "text": "Never mind. I need to get back to my questing.",
+                            "response": "Very well.",
+                            "function": "",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dedricsDoorCheckAccepted",
+            "text": "",
+            "response": "",
+            "function": "moveOnAcceptedQuest::dedricsDoor,dedricsDoorAccepted,start",
+            "children": []
+        },
+        {
+            "name": "dedricsDoorAccepted",
+            "text": "Hey @npc. Can you unlock Renfield's office? That'd be great.",
+            "response": "",
+            "function": "openRenfieldsDoor",
+            "children": []
+        },
+        {
+            "name": "start",
+            "text": "What's up?",
+            "response": "",
+            "function": "",
+            "children": []
+        }
+    ]
+}
